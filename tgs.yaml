@@ -1,0 +1,4 @@
+proxies:
+  - {name: v2-kor, server: 13.233.101.24, port: 58168, client-fingerprint: chrome, type: vmess, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: v2-kor, server: 13.233.101.24, port: 58168, client-fingerprint: chrome, type: vmess, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: v2-kor, server: 13.233.101.24, port: 58168, client-fingerprint: chrome, type: vmess, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
