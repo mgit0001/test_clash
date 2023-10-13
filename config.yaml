@@ -20,7 +20,7 @@ dns:
 proxies:
 
 proxy-groups:
-    - { name: GS, type: select, proxies: [ 手动选择, 手动负载 ], use: [ GS小鸡 ] }
+    - { name: gs, type: select, proxies: [ 手动选择, 手动负载 ], use: [ GS小鸡 ] }
     - { name: 手动选择, type: select, use: [ GS小鸡 ], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
     #- { name: 故障转移, type: fallback, use: [GS小鸡], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
     - { name: 手动负载, type: select, use: [ 其它云 ], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
