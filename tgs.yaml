@@ -4,6 +4,37 @@ proxies:
   - {name: 🇫🇷 法国2-v2free机场免费节点, server: fr2.eurodns.tk, port: 80, client-fingerprint: chrome, type: vmess, uuid: 4dad48c8-92de-3c9a-a34a-d09e10431429, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /maomao, headers: {Host: fr2.eurodns.tk}}, udp: true}
   - {name: 🇺🇸 美国3-v2free机场免费节点, server: us3.eurodns.tk, port: 80, client-fingerprint: chrome, type: vmess, uuid: 4dad48c8-92de-3c9a-a34a-d09e10431429, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /maomao, headers: {Host: us3.eurodns.tk}}, udp: true}
   - {name: 🇺🇸 美国4-v2free机场免费节点, server: us4.eurodns.tk, port: 80, client-fingerprint: chrome, type: vmess, uuid: 4dad48c8-92de-3c9a-a34a-d09e10431429, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /maomao, headers: {Host: us4.eurodns.tk}}, udp: true}
-
+  - {name: 🇭🇰 香港01, server: hk1.susenl.com, port: 10031, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇭🇰 香港02, server: hk1.susenl.com, port: 10032, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇭🇰 香港03, server: hk1.susenl.com, port: 12345, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇭🇰 香港04, server: hk1.susenl.com, port: 10033, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇭🇰 香港05, server: hk1.susenl.com, port: 10034, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇭🇰 香港06, server: hk1.susenl.com, port: 10035, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇯🇵 日本01, server: jp1.susenl.com, port: 10037, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇯🇵 日本02, server: jp1.susenl.com, port: 10038, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇯🇵 日本03, server: jp1.susenl.com, port: 10039, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇯🇵 日本04, server: jp1.susenl.com, port: 10058, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾01, server: hk1.susenl.com, port: 10036, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇹🇼 台湾02, server: hk1.susenl.com, port: 10064, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇸🇬 新加坡01, server: jp1.susenl.com, port: 10044, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇸🇬 新加坡02, server: jp1.susenl.com, port: 10045, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇸🇬 新加坡03, server: jp1.susenl.com, port: 10046, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇸🇬 新加坡04, server: jp1.susenl.com, port: 10068, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇺🇸 美国01, server: jp1.susenl.com, port: 10040, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇺🇸 美国02, server: jp1.susenl.com, port: 10041, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇺🇸 美国03, server: jp1.susenl.com, port: 10042, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇺🇸 美国04, server: jp1.susenl.com, port: 10043, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇺🇸 美国05, server: jp1.susenl.com, port: 10067, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇮🇳 印度01, server: jp1.susenl.com, port: 10050, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇮🇳 印度02, server: jp1.susenl.com, port: 10051, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇰🇷 韩国01, server: jp1.susenl.com, port: 10047, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇰🇷 韩国02, server: jp1.susenl.com, port: 10048, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇬🇧 英国01, server: jp1.susenl.com, port: 10052, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇬🇧 英国02, server: jp1.susenl.com, port: 10053, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇩🇪 德国柏林01, server: jp1.susenl.com, port: 10069, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇦🇺 澳大利亚01, server: jp1.susenl.com, port: 10055, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇦🇺 澳大利亚02, server: jp1.susenl.com, port: 10054, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇦🇪 迪拜01, server: jp1.susenl.com, port: 10056, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
+  - {name: 🇦🇪 迪拜02, server: jp1.susenl.com, port: 10057, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: skSARGNhKGQ52yBC, tfo: false, udp: true}
 
 
