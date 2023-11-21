@@ -1,58 +1,22 @@
 proxies:
-  - {name: "🇸🇬 [vip1] ① 新加坡｜www.jyun.fun", server: 3.jijiyun.quest, port: 25103, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [vip1] ② 新加坡｜×1x｜限速100M", server: 4.jijiyun.quest, port: 25104, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 [vip1] ③ 美国｜×1x｜限速100M", server: 5.jijiyun.quest, port: 25105, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 [vip1] ④ 美国｜×1x｜限速100M", server: 6.jijiyun.quest, port: 25106, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [vip1] ⑤ 新加坡｜×1x｜限速100M", server: 7.jijiyun.quest, port: 25107, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [vip1] ⑥ 新加坡｜×1x｜限速100M", server: 8.jijiyun.quest, port: 25108, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [vip1] ⑦ 新加坡｜×1x｜限速100M", server: 9.jijiyun.quest, port: 25109, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [vip1] ⑧ 新加坡｜×1x｜限速100M", server: 10.jijiyun.quest, port: 25110, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [vip1] ⑨ 日本｜×1x｜限速100M", server: 11.jijiyun.quest, port: 25111, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [vip1] ⑩ 日本｜×1x｜限速100M", server: 12.jijiyun.quest, port: 25112, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [vip1] ⑪ 新加坡｜×1x｜限速100M", server: 13.jijiyun.quest, port: 25113, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [vip1] ⑬ 日本｜×1x｜限速100M", server: 15.jijiyun.quest, port: 25115, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [vip1] ⑭ 日本｜×1x｜限速100M", server: 16.jijiyun.quest, port: 25116, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.jijiyun.quest}}, udp: true}
-  - {name: "🇸🇬 [vip1] ⑮ 新加坡｜×1x｜限速100M", server: 17.jijiyun.quest, port: 25117, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.jijiyun.quest}}, udp: true}
-  - {name: "🇯🇵 [vip1] ⑯ 日本｜×1x｜限速100M", server: 18.jijiyun.quest, port: 25118, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.jijiyun.quest}}, udp: true}
-  - {name: "🇯🇵 [vip1] ⑰ 日本｜×1x｜限速100M", server: 19.jijiyun.quest, port: 25119, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.jijiyun.quest}}, udp: true}
-  - {name: "🇺🇸 [vip1] ⑱ 美国｜×1x｜限速100M", server: 20.jijiyun.quest, port: 25120, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.jijiyun.quest}}, udp: true}
-  - {name: "🇸🇬 [vip1] ⑳ 新加坡｜×1x｜限速100M", server: 22.jijiyun.quest, port: 25122, type: vmess, uuid: ebc43a97-8c43-32e9-806c-f4f66c9bf5a7, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 22.jijiyun.quest}}, udp: true}
-  - {name: 🇭🇰 Cyanmori - 香港01, server: acc.xiyun.co, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇭🇰 Cyanmori - 香港02, server: acc.xiyun.co, port: 10032, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇭🇰 Cyanmori - 香港03, server: acc.xiyun.co, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇭🇰 Cyanmori - 香港04, server: acc.xiyun.co, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇭🇰 Cyanmori - 香港05, server: acc.xiyun.co, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇭🇰 Cyanmori - 香港06, server: acc.xiyun.co, port: 10035, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇯🇵 Cyanmori - 日本01, server: bcc.xiyun.co, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇯🇵 Cyanmori - 日本02, server: bcc.xiyun.co, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇯🇵 Cyanmori - 日本03, server: bcc.xiyun.co, port: 10039, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇯🇵 Cyanmori - 日本04, server: bcc.xiyun.co, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇹🇼 Cyanmori - 台湾01, server: acc.xiyun.co, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇹🇼 Cyanmori - 台湾02, server: acc.xiyun.co, port: 10064, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇸🇬 Cyanmori - 新加坡01, server: bcc.xiyun.co, port: 10044, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇸🇬 Cyanmori - 新加坡02, server: bcc.xiyun.co, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇸🇬 Cyanmori - 新加坡03, server: bcc.xiyun.co, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇸🇬 Cyanmori - 新加坡04, server: bcc.xiyun.co, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇺🇸 Cyanmori - 美国01, server: bcc.xiyun.co, port: 10040, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇺🇸 Cyanmori - 美国02, server: bcc.xiyun.co, port: 10041, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇺🇸 Cyanmori - 美国03, server: bcc.xiyun.co, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇺🇸 Cyanmori - 美国04, server: bcc.xiyun.co, port: 10043, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇺🇸 Cyanmori - 美国05, server: bcc.xiyun.co, port: 10067, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇮🇳 Cyanmori - 印度01, server: bcc.xiyun.co, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇮🇳 Cyanmori - 印度02, server: bcc.xiyun.co, port: 10051, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇰🇷 Cyanmori - 韩国01, server: bcc.xiyun.co, port: 10047, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇰🇷 Cyanmori - 韩国02, server: bcc.xiyun.co, port: 10048, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇬🇧 Cyanmori - 英国01, server: bcc.xiyun.co, port: 10052, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇬🇧 Cyanmori - 英国02, server: bcc.xiyun.co, port: 10053, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇩🇪 Cyanmori - 德国柏林01, server: bcc.xiyun.co, port: 10069, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇦🇺 Cyanmori - 澳大利亚01, server: bcc.xiyun.co, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇦🇺 Cyanmori - 澳大利亚02, server: bcc.xiyun.co, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇦🇪 Cyanmori - 迪拜01, server: bcc.xiyun.co, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-  - {name: 🇦🇪 Cyanmori - 迪拜02, server: bcc.xiyun.co, port: 10057, type: ss, cipher: chacha20-ietf-poly1305, password: szp2bgQyRsbcWeP6, tfo: false, udp: true}
-
-
-
-
+  - {name: "🇸🇬 [vip1] ① 新加坡｜www.jijiyun.online", server: 3.jijiyun.quest, port: 25103, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [vip1] ② 新加坡｜×1x｜限速100M", server: 4.jijiyun.quest, port: 25104, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸 [vip1] ③ 美国｜×1x｜限速100M", server: 5.jijiyun.quest, port: 25105, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸 [vip1] ④ 美国｜×1x｜限速100M", server: 6.jijiyun.quest, port: 25106, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [vip1] ⑤ 新加坡｜×1x｜限速100M", server: 7.jijiyun.quest, port: 25107, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [vip1] ⑥ 新加坡｜×1x｜限速100M", server: 8.jijiyun.quest, port: 25108, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [vip1] ⑦ 新加坡｜×1x｜限速100M", server: 9.jijiyun.quest, port: 25109, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [vip1] ⑧ 新加坡｜×1x｜限速100M", server: 10.jijiyun.quest, port: 25110, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 [vip1] ⑨ 日本｜×1x｜限速100M", server: 11.jijiyun.quest, port: 25111, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 [vip1] ⑩ 日本｜×1x｜限速100M", server: 12.jijiyun.quest, port: 25112, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [vip1] ⑪ 新加坡｜×1x｜限速100M", server: 13.jijiyun.quest, port: 25113, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 [vip1] ⑬ 日本｜×1x｜限速100M", server: 15.jijiyun.quest, port: 25115, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 [vip1] ⑭ 日本｜×1x｜限速100M", server: 16.jijiyun.quest, port: 25116, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.jijiyun.quest}}, udp: true}
+  - {name: "🇸🇬 [vip1] ⑮ 新加坡｜×1x｜限速100M", server: 17.jijiyun.quest, port: 25117, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.jijiyun.quest}}, udp: true}
+  - {name: "🇯🇵 [vip1] ⑯ 日本｜×1x｜限速100M", server: 18.jijiyun.quest, port: 25118, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.jijiyun.quest}}, udp: true}
+  - {name: "🇯🇵 [vip1] ⑰ 日本｜×1x｜限速100M", server: 19.jijiyun.quest, port: 25119, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.jijiyun.quest}}, udp: true}
+  - {name: "🇺🇸 [vip1] ⑱ 美国｜×1x｜限速100M", server: 20.jijiyun.quest, port: 25120, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.jijiyun.quest}}, udp: true}
+  - {name: "🇸🇬 [vip1] ⑳ 新加坡｜×1x｜限速100M", server: 22.jijiyun.quest, port: 25122, type: vmess, uuid: c7851b48-71ca-37eb-9ae4-9ae67b72d0e9, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 22.jijiyun.quest}}, udp: true}
 
 
 
