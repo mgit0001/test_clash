@@ -1,5 +1,9 @@
 proxies:
   - { name: GS1, type: vmess, server: 13.232.159.252, port: 56274, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
   - { name: GS2, type: vmess, server: 13.232.159.252, port: 54977, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
-  - {name: GetAFreeNode.com-LosAngeles, server: 198.41.249.121, port: 443, type: vmess, uuid: AD7072D2-88E7-4DE8-AAE2-8D465E21DED5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.tatbmc8l.com}}, udp: true}
-  - {name: GetAFreeNode.com-LosAngeles 2, server: 197.234.241.48, port: 443, type: vmess, uuid: AD7072D2-88E7-4DE8-AAE2-8D465E21DED5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.tatbmc8l.com}}, udp: true}
+  - {name: GetAFreeNode.com-Kansas, server: gafn.online, port: 443, type: vmess, uuid: AD7072D2-88E7-4DE8-AAE2-8D465E21DED5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: Kansas.gafn.online, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.gafn.online}}, udp: true}
+  - {name: GetAFreeNode.com-LosAngeles, server: gafn.online, port: 443, type: vmess, uuid: AD7072D2-88E7-4DE8-AAE2-8D465E21DED5, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: LosAngeles.gafn.online, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.gafn.online}}, udp: true}
+
+
+
+
