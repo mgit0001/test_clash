@@ -17,8 +17,6 @@ proxies:
   - {name: 🇭🇰 vip1-香港2||限速100M, server: 18.douluo.art, port: 43018, client-fingerprint: chrome, type: vmess, uuid: cf2e8c77-472a-3c9b-ac6b-dd5f8293b8ca, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 vip1-香港3||限速100M, server: 19.douluo.art, port: 43019, client-fingerprint: chrome, type: vmess, uuid: cf2e8c77-472a-3c9b-ac6b-dd5f8293b8ca, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 vip1-香港4|限速100M, server: 20.douluo.art, port: 43020, client-fingerprint: chrome, type: vmess, uuid: cf2e8c77-472a-3c9b-ac6b-dd5f8293b8ca, alterId: 2, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  asdas
-12312
-1133
+
 
 
