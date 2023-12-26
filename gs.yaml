@@ -1,6 +1,6 @@
 proxies:
   - { name: GS1, type: vmess, server: 3.36.89.99, port: 56060, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
-  - { name: GS2, type: vmess, server: 18.184.54.108, port: 52704, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
+  - { name: GS2, type: vmess, server: 3.127.27.95, port: 55129, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
 
 
 
