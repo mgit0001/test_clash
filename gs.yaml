@@ -4,7 +4,6 @@ proxies:
   - { name: GS3, type: vmess, server: 43.202.37.12, port: 56439, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
   - { name: GS4, type: vmess, server: v.gslby.cloudns.org, port: 30860, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray }, udp: true }  
   - { name: GS5, type: vmess, server: 139.84.230.26, port: 30835, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
-  - { name: GStt, type: vmess, server: v.gslby.cloudns.org, port: 30861, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: v.gslby.cloudns.org}}, udp: true}  
 
 
 
