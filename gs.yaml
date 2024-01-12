@@ -1,5 +1,5 @@
 proxies:
-  - { name: GS1, type: vmess, server: 43.201.67.36, port: 55739, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
+  - { name: GS1, type: vmess, server: 3.36.89.99, port: 52141, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
   - { name: GS2, type: vmess, server: 43.201.98.27, port: 51679, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
   - { name: GS3, type: vmess, server: 43.202.37.12, port: 56439, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
   - { name: GS4, type: vmess, server: v.gslby.cloudns.org, port: 30860, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray }, udp: true }  
