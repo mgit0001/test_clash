@@ -1,6 +1,6 @@
 proxies:
   - { name: GS1, type: vmess, server: 52.78.220.127, port: 51383, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
-  - { name: GS2, type: vmess, server: 15.164.217.243, port: 50527, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
+  - { name: GS2, type: vmess, server: 15.164.217.243, port: 52670, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
   - { name: GS4, type: vmess, server: v.gslby.cloudns.org, port: 30860, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray }, udp: true }  
   - {name: hicairo.com, server: d380a471-e7b0-4aef-b228-0c6e908bf9e3-00-2xxopi7t2jvv9.sisko.replit.dev, port: 443, type: vmess, uuid: d380a471-e7b0-4aef-b228-0c6e908bf9e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: d380a471-e7b0-4aef-b228-0c6e908bf9e3-00-2xxopi7t2jvv9.sisko.replit.dev}}}
 
