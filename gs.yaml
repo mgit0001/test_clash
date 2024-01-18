@@ -1,7 +1,7 @@
 proxies:
   - { name: ka5gk1_4, type: vmess, server: 43.201.67.36, port: 50420, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
   - { name: 1juifjje, type: vmess, server: 15.164.217.243, port: 54204, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
-  - { name: qj4f2jij, type: vmess, server: 54.180.2.98, port: 56140, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
+  - { name: qj4f2jij, type: vmess, server: 54.180.2.98, port: 59013, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
   - { name: AUS, type: vmess, server: v.gslby.cloudns.org, port: 30860, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray }, udp: true }  
   - { name: USA, type: vmess, server: 45.32.132.30, port: 30551, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
   - { name: IL, type: vmess, server: 64.176.171.124, port: 30678, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
