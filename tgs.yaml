@@ -1,19 +1,19 @@
 proxies:
-  - {name: 🇸🇬 vip1-新加坡1||限速100M, server: 3.douluo.art, port: 43003, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1-新加坡2||限速100M, server: 4.douluo.art, port: 43004, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1-新加坡3||限速100M, server: 5.douluo.art, port: 43005, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1-新加坡4||限速100M, server: 6.douluo.art, port: 43006, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1-新加坡5||限速100M, server: 7.douluo.art, port: 43007, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇸🇬 vip1-新加坡6||限速100M, server: 8.douluo.art, port: 43008, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1-日本1||限速100M, server: 9.douluo.art, port: 43009, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1-日本2||限速100M, server: 10.douluo.art, port: 43010, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1-日本3||限速100M, server: 11.douluo.art, port: 43011, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1-日本4||限速100M, server: 12.douluo.art, port: 43012, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1-日本5||限速100M, server: 13.douluo.art, port: 43013, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇯🇵 vip1-日本6||限速100M, server: 14.douluo.art, port: 43014, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 vip1-美国1||限速100M, server: 15.douluo.art, port: 43015, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇰🇷 vip1-韩国1||限速100M, server: 16.douluo.art, port: 43016, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1-香港1||限速100M, server: 17.douluo.art, port: 43017, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1-香港2||限速100M, server: 18.douluo.art, port: 43018, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1-香港3||限速100M, server: 19.douluo.art, port: 43019, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 vip1-香港4|限速100M, server: 20.douluo.art, port: 43020, type: vmess, uuid: b50cb7bb-a998-32e9-9e5b-34e13ef0ad37, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1-新加坡1||限速100M, server: 3.douluo.art, port: 43003, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1-新加坡2||限速100M, server: 4.douluo.art, port: 43004, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1-新加坡3||限速100M, server: 5.douluo.art, port: 43005, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1-新加坡4||限速100M, server: 6.douluo.art, port: 43006, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1-新加坡5||限速100M, server: 7.douluo.art, port: 43007, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇸🇬 vip1-新加坡6||限速100M, server: 8.douluo.art, port: 43008, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1-日本1||限速100M, server: 9.douluo.art, port: 43009, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1-日本2||限速100M, server: 10.douluo.art, port: 43010, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1-日本3||限速100M, server: 11.douluo.art, port: 43011, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1-日本4||限速100M, server: 12.douluo.art, port: 43012, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1-日本5||限速100M, server: 13.douluo.art, port: 43013, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇯🇵 vip1-日本6||限速100M, server: 14.douluo.art, port: 43014, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 vip1-美国1||限速100M, server: 15.douluo.art, port: 43015, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇰🇷 vip1-韩国1||限速100M, server: 16.douluo.art, port: 43016, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1-香港1||限速100M, server: 17.douluo.art, port: 43017, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1-香港2||限速100M, server: 18.douluo.art, port: 43018, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1-香港3||限速100M, server: 19.douluo.art, port: 43019, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇭🇰 vip1-香港4|限速100M, server: 20.douluo.art, port: 43020, type: vmess, uuid: d4316194-fbe3-383e-a44e-da05fd0c0d8c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
