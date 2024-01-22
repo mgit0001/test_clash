@@ -17,3 +17,294 @@ proxies:
   - {name: 🇭🇰 vip1-香港2||限速100M, server: 18.douluo.art, port: 43018, type: vmess, uuid: b2a67267-3ea1-3b6f-bed9-3a2696f8615e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 🇭🇰 vip1-香港3||限速100M, server: 19.douluo.art, port: 43019, type: vmess, uuid: b2a67267-3ea1-3b6f-bed9-3a2696f8615e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 🇭🇰 vip1-香港4|限速100M, server: 20.douluo.art, port: 43020, type: vmess, uuid: b2a67267-3ea1-3b6f-bed9-3a2696f8615e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true}
+  proxies:
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬 Relay_🇸🇬 SG-🇸🇬SG_797
+  network: tcp
+  port: '38755'
+  server: 00000000000000000000000000000000000000000000000000000000000025.agroup-node-for-bigairport.sbs
+  tls: false
+  type: vmess
+  uuid: 843764ed-637a-4085-856e-72c507df3447
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬 Relay_🇸🇬 SG-🇸🇬SG_798
+  network: ws
+  port: '24800'
+  server: 137.184.248.66
+  tls: false
+  type: vmess
+  uuid: d03e5935-b3c4-4dea-8c03-3af578a913ce
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|SG_799
+  network: http
+  port: '80'
+  server: 152.69.211.235
+  tls: false
+  type: vmess
+  uuid: d345916f-1673-4a98-f37d-49357c84ce03
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬 Relay_🇸🇬SG-🇸🇪SE_833
+  network: ws
+  port: '443'
+  server: 92.223.116.224
+  tls: true
+  type: vmess
+  uuid: 932e7399-2e7b-4642-b7d5-d2af283c7f86
+  ws-opts:
+    headers:
+      Host: ''
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 8,11,13|🔒 VM-WS-NA 🇸🇬 SG-45.76.144.158...
+  network: ws
+  port: '52445'
+  server: 45.76.144.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f3023754-1b95-40eb-bdf9-fc524302fb9a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_829
+  network: ws
+  port: '443'
+  server: sg2-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 12726022-f098-47f4-b2dc-be70b9227dfe
+  ws-opts:
+    headers:
+      Host: sg2-full.privateip.net
+    path: /RACEVPN
+- alterId: 64
+  cipher: auto
+  name: 8|Pool_🇸🇬SG_830
+  network: ws
+  port: '443'
+  server: 202.79.171.239
+  tls: true
+  type: vmess
+  uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/143534141104
+- alterId: 0
+  cipher: auto
+  name: 8,11,13|🔒 VM-TCP-NA 🇸🇬 SG-8.219.80.233...
+  network: tcp
+  port: '44279'
+  server: 8.219.80.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0c0c1706-19cb-4c87-a8d9-70059699efa3
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_832
+  network: ws
+  port: '80'
+  server: sing.5gsieutocdo.com
+  tls: false
+  type: vmess
+  uuid: c95357eb-2869-4511-8940-f0dc5e1ec9b1
+  ws-opts:
+    headers:
+      Host: sing.5gsieutocdo.com
+    path: /5gsieutocdo.club
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_834
+  network: ws
+  port: '443'
+  server: sg3-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 4ebc6b52-af2f-4b10-ae8b-7d0b6d5e529f
+  ws-opts:
+    headers:
+      Host: sg3-full.privateip.net
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 8|🇸🇬 Relay_🇸🇬SG-🇸🇬SG_835
+  network: ws
+  port: '443'
+  server: sg-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 465517ad-337c-4ae3-8bbb-a1526208f168
+  ws-opts:
+    headers:
+      Host: sg-full.privateip.net
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 9,11|10|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5a94a204-7a95-4e75-a1a1-72c375bbc60c
+- alterId: 0
+  cipher: auto
+  name: 9,11|10|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5a94a204-7a95-4e75-a1a1-72c375bbc60c
+- alterId: 0
+  cipher: auto
+  name: 9,11|10|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5a94a204-7a95-4e75-a1a1-72c375bbc60c
+- alterId: 0
+  cipher: auto
+  name: 11,14|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: bdefc8c6-68c7-45f4-8e71-a51994b83482
+- alterId: 0
+  cipher: auto
+  name: 11,14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: bdefc8c6-68c7-45f4-8e71-a51994b83482
+- alterId: 0
+  cipher: auto
+  name: 11,14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: bdefc8c6-68c7-45f4-8e71-a51994b83482
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|新加坡2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 104.17.25.2
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  ws-opts:
+    headers:
+      Host: sgvpn.catnipballs.gay
+    path: /
+- cipher: aes-256-cfb
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.64.31.75
+  type: ss
+- cipher: aes-256-cfb
+  name: 15|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.179.13.191
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 17|🇸🇬SG新加坡
+  network: ws
+  port: '80'
+  server: 84sg.fr99kt.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ad13f574-f6b7-427e-bb29-224a07c56d10
+  ws-opts:
+    headers:
+      Host: 84sg.fr99kt.top
+    path: /rdg
+- alterId: 0
+  cipher: auto
+  name: 17|🇸🇬SG新加坡2
+  network: ws
+  port: '80'
+  server: 194.233.95.180
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
+  ws-opts:
+    headers:
+      Host: 194.233.95.180
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 17|🇸🇬SG新加坡6
+  network: ws
+  port: '80'
+  server: si4co.09vpn.com
+  servername: si4co.09vpn.com
+  tls: false
+  type: vmess
+  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
+  ws-opts:
+    headers:
+      Host: si4co.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 17|🇸🇬SG新加坡7
+  network: ws
+  port: '1006'
+  server: shouer4jia24.209966.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7428815e-d341-450d-b4ee-2fff878519ce
+  ws-opts:
+    headers:
+      Host: shouer4jia24.209966.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|SG新加坡-流媒体解锁
+  network: ws
+  port: '80'
+  server: gogo.xn--mes53ddysu0o3gl.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2a3f2bdb-9400-46db-b406-470f38edceec
+  ws-opts:
+    headers:
+      Host: sg1.xn--mes53ddysu0o3gl.top
+    path: /xn--mes53ddysu0o3gl
