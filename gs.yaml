@@ -1,8 +1,8 @@
 proxies:
   - { name: c7_1ockh, type: vmess, server: 3.109.209.170, port: 55245, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /gs-ws } }  
   - { name: 1juifjje, type: vmess, server: 15.164.217.243, port: 54204, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
-  - { name: qj4f2jij, type: vmess, server: 54.180.2.98, port: 58146, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
-  - { name: AUS, type: vmess, server: v.gslby.cloudns.org, port: 30860, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray }, udp: true }  
+  - { name: qj4f2jij, type: vmess, server: 54.180.2.98, port: 58146, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws } 
+  - { name: USA-38, type: vmess, server: 20.171.230.27, port: 30970, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws } 
   - { name: USA, type: vmess, server: 45.32.132.30, port: 30551, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, udp: true, network: ws }  
   - {name: hicairo.com, server: d380a471-e7b0-4aef-b228-0c6e908bf9e3-00-2xxopi7t2jvv9.sisko.replit.dev, port: 443, type: vmess, uuid: d380a471-e7b0-4aef-b228-0c6e908bf9e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: d380a471-e7b0-4aef-b228-0c6e908bf9e3-00-2xxopi7t2jvv9.sisko.replit.dev}}}
   - {name: sp3, server: 92.223.124.29, port: 443, type: vmess, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sp3-speedtest.tools.gcore.com, network: ws, ws-opts: {path: /, headers: {Host: subheader3136.top}}}
