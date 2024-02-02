@@ -17,11 +17,4 @@ proxies:
   - {name: 🇭🇰 vip1-香港2||限速100M, server: 18.douluo.art, port: 43018, type: vmess, uuid: 30608ff1-4138-3587-99f7-a62884f77b08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 vip1-香港3||限速100M, server: 19.douluo.art, port: 43019, type: vmess, uuid: 30608ff1-4138-3587-99f7-a62884f77b08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 vip1-香港4|限速100M, server: 20.douluo.art, port: 43020, type: vmess, uuid: 30608ff1-4138-3587-99f7-a62884f77b08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 United States 02|A, server: api-a-occident-5.mcqqn.com, port: 60004, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a944904f-e551-351d-813f-584116016b9a, tfo: false}
-  - {name: 🇺🇸 United States 01|A, server: api-a-occident-5.mcqqn.com, port: 60033, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a944904f-e551-351d-813f-584116016b9a, tfo: false}
-  - {name: 🇹🇼 Taiwan 02|A, server: api-a-asia-2.mcqqn.com, port: 61006, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a944904f-e551-351d-813f-584116016b9a, tfo: false}
-  - {name: 🇹🇼 Taiwan 01|A, server: api-a-asia-2.mcqqn.com, port: 61005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a944904f-e551-351d-813f-584116016b9a, tfo: false}
-  - {name: 🇸🇬 Singapore 02|A, server: api-a-asia-3.mcqqn.com, port: 61020, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a944904f-e551-351d-813f-584116016b9a, tfo: false}
-  - {name: 🇸🇬 Singapore 01|A, server: api-a-asia-3.mcqqn.com, port: 61019, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a944904f-e551-351d-813f-584116016b9a, tfo: false}
-  - {name: 🇯🇵 Japan 02|A, server: api-a-asia-4.mcqqn.com, port: 61002, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a944904f-e551-351d-813f-584116016b9a, tfo: false}
-  - {name: 🇯🇵 Japan 01|A, server: api-a-asia-4.mcqqn.com, port: 61001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a944904f-e551-351d-813f-584116016b9a, tfo: false}
+
