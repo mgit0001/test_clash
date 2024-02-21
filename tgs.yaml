@@ -4,5 +4,5 @@ proxies:
   - {name: 美国学院, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: hBEBjXU6Sk0UK4T6}
   - {name: 广东省江门市移动, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 2770a662-61db-40ed-a17c-783e521084ce}
   - {name: HK_香港-FD, server: 103.235.18.251, port: 10005, type: vless, uuid: d674009a-4a87-4180-a8fe-9a54f66bd7c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: my1.tooters.ir}}}
-- {name: HK香港, server: 103.235.18.251, port: 10005, client-fingerprint: randomized, type: vless, uuid: d674009a-4a87-4180-a8fe-9a54f66bd7c9, tls: true, tfo: false, skip-cert-verify: false, servername: vpn.restia.love, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.restia.love}}}
+  - {name: HK香港, server: 103.235.18.251, port: 10005, client-fingerprint: randomized, type: vless, uuid: d674009a-4a87-4180-a8fe-9a54f66bd7c9, tls: true, tfo: false, skip-cert-verify: false, servername: vpn.restia.love, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.restia.love}}}
 
