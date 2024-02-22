@@ -3,6 +3,11 @@ proxies:
   - {name: hicairo.com, server: d380a471-e7b0-4aef-b228-0c6e908bf9e3-00-2xxopi7t2jvv9.sisko.replit.dev, port: 443, type: vmess, uuid: d380a471-e7b0-4aef-b228-0c6e908bf9e3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vm, headers: {Host: d380a471-e7b0-4aef-b228-0c6e908bf9e3-00-2xxopi7t2jvv9.sisko.replit.dev}}}
   - {name: sp4, server: hk2-speedtest.tools.gcore.com, port: 443, type: vmess, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk2-speedtest.tools.gcore.com, network: ws, ws-opts: {path: /gs-ws, headers: {Host: swimming2928.top}}}
   - {name: "CFWarp-A",type: wireguard,server: 162.159.204.106,port: 4500,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "CFWarp-B",type: wireguard,server: 162.159.204.162,port: 4500,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "CFWarp-C",type: wireguard,server: 162.159.204.145,port: 4500,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
-  - {name: "CFWarp-D",type: wireguard,server: 162.159.204.212,port: 4500,ip: 172.16.0.2,private-key: SHVqHEGI7k2+OQ/oWMmWY2EQObbRQjRBdDPimh0h1WY=,public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,remote-dns-resolve: false,udp: true}
+  - {name: WARP+, server: 162.159.195.234, port: 988, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: OBW2QTp3PhA4R0S6I7Sv33av3nZtc2hga5gB4lODp3Y=, ip: 172.16.0.2, ipv6: 2606:4700:110:80e8:7823:9b0:ec54:ce, dns: [1.1.1.1, 8.8.8.8], mtu: 1280, udp: true}
+
+
+
+
+
+
+
