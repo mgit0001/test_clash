@@ -1,1 +1,364 @@
-bWl4ZWQtcG9ydDogMTA4MDgKYWxsb3ctbGFuOiB0cnVlCmJpbmQtYWRkcmVzczogJyonCm1vZGU6IHJ1bGUKbG9nLWxldmVsOiBpbmZvCmV4dGVybmFsLWNvbnRyb2xsZXI6ICcwLjAuMC4wOjEwODA5JwpleHRlcm5hbC11aTogLi91aQpzZWNyZXQ6ICIsLjEyMzMyMSIKZG5zOgogICAgZW5hYmxlOiB0cnVlCiAgICBpcHY2OiBmYWxzZQogICAgZGVmYXVsdC1uYW1lc2VydmVyOiBbMTgwLjE4NC4xLjEsIDE4MC4xODQuMi4yXQogICAgZW5oYW5jZWQtbW9kZTogZmFrZS1pcAogICAgZmFrZS1pcC1yYW5nZTogMTk4LjE4LjAuMS8xNgogICAgdXNlLWhvc3RzOiB0cnVlCiAgICBuYW1lc2VydmVyOiBbJ2h0dHBzOi8vZG9oLnB1Yi9kbnMtcXVlcnknLCAnaHR0cHM6Ly9kbnMuYWxpZG5zLmNvbS9kbnMtcXVlcnknXQogICAgZmFsbGJhY2s6IFsnaHR0cHM6Ly9jbG91ZGZsYXJlLWRucy5jb20vZG5zLXF1ZXJ5JywgJ3RsczovLzguOC40LjQ6ODUzJ10KICAgIGZhbGxiYWNrLWZpbHRlcjogeyBnZW9pcDogdHJ1ZSwgaXBjaWRyOiBbMjQwLjAuMC4wLzQsIDAuMC4wLjAvMzJdIH0KCnByb3hpZXM6CiAgIyDlpoLmnpzkvb/nlKjnvZHnu5zorqLpmIXov5nph4zlj6/ku6XnlZnnqboKICAjIFZNZXNzCiAgIyDmlK/mjIHnmoTliqDlr4bmlrnms5U6CiAgIyAgYXV0by9hZXMtMTI4LWdjbS9jaGFjaGEyMC1wb2x5MTMwNS9ub25lCiAgIyAtIG5hbWU6ICJCR1MxIgogICMgICB0eXBlOiB2bWVzcwogICMgICBzZXJ2ZXI6IDE2OC4xMzguNDAuMTMyCiAgIyAgIHBvcnQ6IDUxMDAyCiAgIyAgIHV1aWQ6IGY5OTM0MDI2LTVmNDYtMTFlYy1iZjYzLTAyNDJhYzEzMDAwMgogICMgICBhbHRlcklkOiAwCiAgIyAgIGNpcGhlcjogYXV0bwogICMgICAjIHVkcDogdHJ1ZQogICMgICB0bHM6IGZhbHNlCiAgIyAgICMgc2tpcC1jZXJ0LXZlcmlmeTogdHJ1ZQogICMgICAjIHNlcnZlcm5hbWU6IGV4YW1wbGUuY29tICMg5LyY5YWI5LqOIHdzcyDkuLvmnLoKICAjICAgbmV0d29yazogd3MKICAjICAgIyB3cy1vcHRzOgogICMgICAjICAgcGF0aDogL3BhdGgKICAjICAgIyAgIGhlYWRlcnM6CiAgIyAgICMgICAgIEhvc3Q6IHYycmF5LmNvbQogICMgICAjICAgbWF4LWVhcmx5LWRhdGE6IDIwNDgKICAjICAgIyAgIGVhcmx5LWRhdGEtaGVhZGVyLW5hbWU6IFNlYy1XZWJTb2NrZXQtUHJvdG9jb2wKCiAgIy0geyBuYW1lOiBHUzAxLCB0eXBlOiB2bWVzcywgc2VydmVyOiAxNjguMTM4LjQwLjEzMiwgcG9ydDogNTEwMDIsIHV1aWQ6IGY5OTM0MDI2LTVmNDYtMTFlYy1iZjYzLTAyNDJhYzEzMDAwMiwgYWx0ZXJJZDogMCwgY2lwaGVyOiBhdXRvLCB0bHM6IGZhbHNlLCBuZXR3b3JrOiB3cyB9CiAgLSB7bmFtZTogR1MwMSwgc2VydmVyOiAxNjIuMTU5LjE5Mi4yMTMsIHBvcnQ6IDQ1MDAsIHR5cGU6IHdpcmVndWFyZCwgcHVibGljLWtleTogYm1YT0MrRjFGeEVNRjlkeWlLMkg1LzFTVXR6SDBKdVZvNTFoMndQZmd5bz0sIHByaXZhdGUta2V5OiBpT3J5N3lxSGE1NFF4T2x1RUovemd1M0lwWGdqV2hKVFZRUDc1R2R5RFY4PSwgaXA6IDE3Mi4xNi4wLjIsIGlwdjY6IDI2MDY6NDcwMDoxMTA6OGZmYTo0Mjk3OjcyM2E6ZDEwODo5ZjBhLCBkbnM6IFsxLjEuMS4xLCA4LjguOC44XSwgbXR1OiAxMjgwLCB1ZHA6IHRydWV9Cgpwcm94eS1ncm91cHM6CiAgICAtIHsgbmFtZTogR1MsIHR5cGU6IHNlbGVjdCwgcHJveGllczogWyDkuIrnvZHkuJPnlKgsIOa4uOaIj+S4k+eUqCwg5YW25a6D5LqRLCBHUzAxIF0gfQogICAgLSB7IG5hbWU6IOS4iue9keS4k+eUqCwgdHlwZTogc2VsZWN0LCB1c2U6IFsgR1PlsI/puKEgXSwgdXJsOiAnaHR0cDovL3d3dy5nc3RhdGljLmNvbS9nZW5lcmF0ZV8yMDQnLCBpbnRlcnZhbDogODY0MDAgfQogICAgIy0geyBuYW1lOiDmlYXpmpzovaznp7ssIHR5cGU6IGZhbGxiYWNrLCB1c2U6IFtHU+Wwj+m4oV0sIHVybDogJ2h0dHA6Ly93d3cuZ3N0YXRpYy5jb20vZ2VuZXJhdGVfMjA0JywgaW50ZXJ2YWw6IDcyMDAgfQogICAgLSB7IG5hbWU6IOa4uOaIj+S4k+eUqCwgdHlwZTogc2VsZWN0LCB1c2U6IFsg5ri45oiP5LiT55SoIF0sIHVybDogJ2h0dHA6Ly93d3cuZ3N0YXRpYy5jb20vZ2VuZXJhdGVfMjA0JywgaW50ZXJ2YWw6IDg2NDAwIH0KICAgIC0geyBuYW1lOiDlhbblroPkupEsIHR5cGU6IHNlbGVjdCwgdXNlOiBbIOWFtuWug+S6kSBdLCB1cmw6ICdodHRwOi8vd3d3LmdzdGF0aWMuY29tL2dlbmVyYXRlXzIwNCcsIGludGVydmFsOiA4NjQwMCB9Cgpwcm94eS1wcm92aWRlcnM6CiAgR1PlsI/puKE6CiAgICB0eXBlOiBodHRwCiAgICAjdXJsOiAiaHR0cHM6Ly92MS5tay9wSGhaWXluIiAgICAgIyDlsIbmnLrlnLrnmoTmj5DkvpvnmoRjbGFzaOiuoumYheWcsOWdgOaLt+i0nei/m+adpSzlpoLmnpzmsqHmnIljbGFzaOiuoumYheWcsOWdgCzor7fkvb/nlKhodHRwczovL3N1Yi52MS5tay/ov5vooYzlnLDlnYDovazmjaIKICAgIHVybDogJ2h0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9tZ2l0MDAwMS90ZXN0X2NsYXNoL21haW4vZ3MueWFtbCcKICAgIHBhdGg6ICIuL2dzLnlhbWwiICAgICAgICAgICAgICMg5bCG5py65Zy655qEY2xhc2jphY3nva7kuIvovb3lkI7lrZjmlL7nmoTkvY3nva4KICAgIGludGVydmFsOiA4NjQwMCAgICAgICAgICAgICAgICAgIyDmr4/pmpQ4NjQwMOenkuWNs+avj+malDHlpKnku451cmzkuK3mjIflrprnmoRjbGFzaOiuoumYheWcsOWdgOabtOaWsAogICAgaGVhbHRoLWNoZWNrOiAgICAgICAgICAgICAgICAgICMg6IqC54K55YGl5bq35qOA5p+l57G75Ly8cGluZ+a1i+ivlQogICAgICBlbmFibGU6IHRydWUKICAgICAgaW50ZXJ2YWw6IDM2MDAgICAgICAgICAgICAgICAgIyDmr4/pmpQzNjAw56eS5rWL6K+V5LiA5qyh5bu26L+fCiAgICAgIHVybDogaHR0cDovL3d3dy5nc3RhdGljLmNvbS9nZW5lcmF0ZV8yMDQKCiAg5ri45oiP5LiT55SoOgogICAgdHlwZTogaHR0cAogICAgI3VybDogImh0dHBzOi8vdjEubWsvcEhoWll5biIgICAgICMg5bCG5py65Zy655qE5o+Q5L6b55qEY2xhc2jorqLpmIXlnLDlnYDmi7fotJ3ov5vmnaUs5aaC5p6c5rKh5pyJY2xhc2jorqLpmIXlnLDlnYAs6K+35L2/55SoaHR0cHM6Ly9zdWIudjEubWsv6L+b6KGM5Zyw5Z2A6L2s5o2iCiAgICB1cmw6ICdodHRwczovL21pcnJvci5naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbWdpdDAwMDEvdGVzdF9jbGFzaC9tYWluL2dzZ2FtZS55YW1sJwogICAgcGF0aDogIi4vZ3NnYW1lLnlhbWwiICAgICAgICAgICAgICMg5bCG5py65Zy655qEY2xhc2jphY3nva7kuIvovb3lkI7lrZjmlL7nmoTkvY3nva4KICAgIGludGVydmFsOiA4NjQwMCAgICAgICAgICAgICAgICAgIyDmr4/pmpQ4NjQwMOenkuWNs+avj+malDHlpKnku451cmzkuK3mjIflrprnmoRjbGFzaOiuoumYheWcsOWdgOabtOaWsAogICAgaGVhbHRoLWNoZWNrOiAgICAgICAgICAgICAgICAgICMg6IqC54K55YGl5bq35qOA5p+l57G75Ly8cGluZ+a1i+ivlQogICAgICBlbmFibGU6IHRydWUKICAgICAgaW50ZXJ2YWw6IDM2MDAgICAgICAgICAgICAgICAgIyDmr4/pmpQzNjAw56eS5rWL6K+V5LiA5qyh5bu26L+fCiAgICAgIHVybDogaHR0cDovL3d3dy5nc3RhdGljLmNvbS9nZW5lcmF0ZV8yMDQKCiAg5YW25a6D5LqROgogICAgdHlwZTogaHR0cAogICAgI3VybDogImh0dHBzOi8vdjEubWsvcEhoWll5biIgICAgICMg5bCG5py65Zy655qE5o+Q5L6b55qEY2xhc2jorqLpmIXlnLDlnYDmi7fotJ3ov5vmnaUs5aaC5p6c5rKh5pyJY2xhc2jorqLpmIXlnLDlnYAs6K+35L2/55SoaHR0cHM6Ly9zdWIudjEubWsv6L+b6KGM5Zyw5Z2A6L2s5o2iCiAgICB1cmw6ICdodHRwczovL21pcnJvci5naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbWdpdDAwMDEvdGVzdF9jbGFzaC9tYWluL3Rncy55YW1sJwogICAgcGF0aDogIi4vb3RoZXJjbG91ZHMueWFtbCIgICAgICAgICAgICAgIyDlsIbmnLrlnLrnmoRjbGFzaOmFjee9ruS4i+i9veWQjuWtmOaUvueahOS9jee9rgogICAgaW50ZXJ2YWw6IDg2NDAwICAgICAgICAgICAgICAgICAjIOavj+malDg2NDAw56eS5Y2z5q+P6ZqUMeWkqeS7jnVybOS4reaMh+WumueahGNsYXNo6K6i6ZiF5Zyw5Z2A5pu05pawCiAgICBoZWFsdGgtY2hlY2s6ICAgICAgICAgICAgICAgICAgIyDoioLngrnlgaXlurfmo4Dmn6XnsbvkvLxwaW5n5rWL6K+VCiAgICAgIGVuYWJsZTogdHJ1ZQogICAgICBpbnRlcnZhbDogMzYwMCAgICAgICAgICAgICAgICAjIOavj+malDM2MDDnp5LmtYvor5XkuIDmrKHlu7bov58KICAgICAgdXJsOiBodHRwOi8vd3d3LmdzdGF0aWMuY29tL2dlbmVyYXRlXzIwNAoKIz09PT09PT09PT09PT09PT09PT09PSDphY3nva7op4TliJkgPT09PT09PT09PT09PT09PT09PT09IwojIOmFjee9ruiBlOe9keinhOWImQpydWxlLXByb3ZpZGVyczoKICAjIOW5v+WRiuWfn+WQjeWIl+ihqAogIFJlamVjdDoKICAgIHR5cGU6IGh0dHAKICAgIGJlaGF2aW9yOiBkb21haW4KICAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9Mb3lhbHNvbGRpZXIvY2xhc2gtcnVsZXMvcmVsZWFzZS9yZWplY3QudHh0IgogICAgcGF0aDogLi9ydWxlc2V0L1JlamVjdC55YW1sCiAgICBpbnRlcnZhbDogODY0MDAKICAKICAjIOS7o+eQhuWfn+WQjeWIl+ihqAogIFByb3h5OgogICAgdHlwZTogaHR0cAogICAgYmVoYXZpb3I6IGRvbWFpbgogICAgdXJsOiAiaHR0cHM6Ly9taXJyb3IuZ2hwcm94eS5jb20vaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0xveWFsc29sZGllci9jbGFzaC1ydWxlcy9yZWxlYXNlL3Byb3h5LnR4dCIKICAgIHBhdGg6IC4vcnVsZXNldC9Qcm94eS55YW1sCiAgICBpbnRlcnZhbDogODY0MDAgIAogIAogIEdvb2dsZToKICAgIHR5cGU6IGh0dHAKICAgIGJlaGF2aW9yOiBjbGFzc2ljYWwKICAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3ZpZGVycy9SdWxlc2V0L0dvb2dsZS55YW1sIgogICAgcGF0aDogLi9ydWxlc2V0L0dvb2dsZS55YW1sCiAgICBpbnRlcnZhbDogODY0MDAKCiAgWW91VHViZToKICAgIHR5cGU6IGh0dHAKICAgIGJlaGF2aW9yOiBjbGFzc2ljYWwKICAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3ZpZGVycy9SdWxlc2V0L1lvdVR1YmUueWFtbCIKICAgIHBhdGg6IC4vcnVsZXNldC9Zb3VUdWJlLnlhbWwKICAgIGludGVydmFsOiA4NjQwMAoKICBOZXRmbGl4OgogICAgdHlwZTogaHR0cAogICAgYmVoYXZpb3I6IGNsYXNzaWNhbAogICAgdXJsOiAiaHR0cHM6Ly9taXJyb3IuZ2hwcm94eS5jb20vaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJvdmlkZXJzL1J1bGVzZXQvTmV0ZmxpeC55YW1sIgogICAgcGF0aDogLi9ydWxlc2V0L05ldGZsaXgueWFtbAogICAgaW50ZXJ2YWw6IDg2NDAwCiAgCiAgT25lRHJpdmU6CiAgICB0eXBlOiBodHRwCiAgICBiZWhhdmlvcjogY2xhc3NpY2FsCiAgICB1cmw6ICJodHRwczovL21pcnJvci5naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQUNMNFNTUi9BQ0w0U1NSL21hc3Rlci9DbGFzaC9Qcm92aWRlcnMvUnVsZXNldC9PbmVEcml2ZS55YW1sIgogICAgcGF0aDogLi9ydWxlc2V0L09uZURyaXZlLnlhbWwKICAgIGludGVydmFsOiA4NjQwMAoKICBCaWxpYmlsaToKICAgdHlwZTogaHR0cAogICBiZWhhdmlvcjogY2xhc3NpY2FsCiAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3ZpZGVycy9SdWxlc2V0L0JpbGliaWxpLnlhbWwiCiAgIHBhdGg6IC4vcnVsZXNldC9CaWxpYmlsaS55YW1sCiAgIGludGVydmFsOiA4NjQwMCAgCiAgCiAgRGlzbmV5UGx1czoKICAgIHR5cGU6IGh0dHAKICAgIGJlaGF2aW9yOiBjbGFzc2ljYWwKICAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3ZpZGVycy9SdWxlc2V0L0Rpc25leVBsdXMueWFtbCIKICAgIHBhdGg6IC4vcnVsZXNldC9EaXNuZXlQbHVzLnlhbWwKICAgIGludGVydmFsOiA4NjQwMCAgCgogIEhCTzoKICAgIHR5cGU6IGh0dHAKICAgIGJlaGF2aW9yOiBjbGFzc2ljYWwKICAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3ZpZGVycy9SdWxlc2V0L0hCTy55YW1sIgogICAgcGF0aDogLi9ydWxlc2V0L0hCTy55YW1sCiAgICBpbnRlcnZhbDogODY0MDAgIAoKICBOZXRFYXNlTXVzaWM6CiAgICB0eXBlOiBodHRwCiAgICBiZWhhdmlvcjogY2xhc3NpY2FsCiAgICB1cmw6ICJodHRwczovL21pcnJvci5naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQUNMNFNTUi9BQ0w0U1NSL21hc3Rlci9DbGFzaC9Qcm92aWRlcnMvUnVsZXNldC9OZXRFYXNlTXVzaWMueWFtbCIKICAgIHBhdGg6IC4vcnVsZXNldC9OZXRFYXNlTXVzaWMueWFtbAogICAgaW50ZXJ2YWw6IDg2NDAwICAgIAoKICBXZUNoYXQ6CiAgICB0eXBlOiBodHRwCiAgICBiZWhhdmlvcjogY2xhc3NpY2FsCiAgICB1cmw6ICJodHRwczovL21pcnJvci5naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQUNMNFNTUi9BQ0w0U1NSL21hc3Rlci9DbGFzaC9Qcm92aWRlcnMvUnVsZXNldC9XZWNoYXQueWFtbCIKICAgIHBhdGg6IC4vcnVsZXNldC9XZUNoYXQueWFtbAogICAgaW50ZXJ2YWw6IDg2NDAwICAgIAogIAogIFN0ZWFtQ046CiAgICB0eXBlOiBodHRwCiAgICBiZWhhdmlvcjogY2xhc3NpY2FsCiAgICB1cmw6ICJodHRwczovL21pcnJvci5naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vQUNMNFNTUi9BQ0w0U1NSL21hc3Rlci9DbGFzaC9Qcm92aWRlcnMvUnVsZXNldC9TdGVhbUNOLnlhbWwiCiAgICBwYXRoOiAuL3J1bGVzZXQvU3RlYW1DTi55YW1sCiAgICBpbnRlcnZhbDogODY0MDAgIAogIAogIFN0ZWFtOgogICAgdHlwZTogaHR0cAogICAgYmVoYXZpb3I6IGNsYXNzaWNhbAogICAgdXJsOiAiaHR0cHM6Ly9taXJyb3IuZ2hwcm94eS5jb20vaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJvdmlkZXJzL1J1bGVzZXQvU3RlYW0ueWFtbCIKICAgIHBhdGg6IC4vcnVsZXNldC9TdGVhbS55YW1sCiAgICBpbnRlcnZhbDogODY0MDAgIAogICAgCiAgWGJveDoKICAgIHR5cGU6IGh0dHAKICAgIGJlaGF2aW9yOiBjbGFzc2ljYWwKICAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9BQ0w0U1NSL0FDTDRTU1IvbWFzdGVyL0NsYXNoL1Byb3ZpZGVycy9SdWxlc2V0L1hib3gueWFtbCIKICAgIHBhdGg6IC4vcnVsZXNldC9YYm94LnlhbWwKICAgIGludGVydmFsOiA4NjQwMCAgCgogIEFwcGxlOgogICAgdHlwZTogaHR0cAogICAgYmVoYXZpb3I6IGRvbWFpbiAKICAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9Mb3lhbHNvbGRpZXIvY2xhc2gtcnVsZXMvcmVsZWFzZS9hcHBsZS50eHQiCiAgICBwYXRoOiAuL3J1bGVzZXQvQXBwbGUueWFtbAogICAgaW50ZXJ2YWw6IDg2NDAwICAKICAKICAjIGlDbG91ZCDln5/lkI3liJfooagKICBpY2xvdWQ6CiAgICB0eXBlOiBodHRwCiAgICBiZWhhdmlvcjogZG9tYWluCiAgICB1cmw6ICJodHRwczovL21pcnJvci5naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vTG95YWxzb2xkaWVyL2NsYXNoLXJ1bGVzL3JlbGVhc2UvaWNsb3VkLnR4dCIKICAgIHBhdGg6IC4vcnVsZXNldC9pY2xvdWQueWFtbAogICAgaW50ZXJ2YWw6IDg2NDAwCgogICMg6ZyA6KaB55u06L+e55qE5bi46KeB6L2v5Lu25YiX6KGoCiAgYXBwbGljYXRpb25zOgogICAgdHlwZTogaHR0cAogICAgYmVoYXZpb3I6IGNsYXNzaWNhbAogICAgdXJsOiAiaHR0cHM6Ly9taXJyb3IuZ2hwcm94eS5jb20vaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0xveWFsc29sZGllci9jbGFzaC1ydWxlcy9yZWxlYXNlL2FwcGxpY2F0aW9ucy50eHQiCiAgICBwYXRoOiAuL3J1bGVzZXQvYXBwbGljYXRpb25zLnlhbWwKICAgIGludGVydmFsOiA4NjQwMAogIAogICMg55u06L+e5Z+f5ZCN5YiX6KGoCiAgRGlyZWN0OgogICAgdHlwZTogaHR0cAogICAgYmVoYXZpb3I6IGRvbWFpbgogICAgdXJsOiAiaHR0cHM6Ly9taXJyb3IuZ2hwcm94eS5jb20vaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0xveWFsc29sZGllci9jbGFzaC1ydWxlcy9yZWxlYXNlL2RpcmVjdC50eHQiCiAgICBwYXRoOiAuL3J1bGVzZXQvRGlyZWN0LnlhbWwKICAgIGludGVydmFsOiA4NjQwMAogIAogICMg56eB5pyJ572R57uc5LiT55So5Z+f5ZCN5YiX6KGoCiAgUHJpdmF0ZToKICAgIHR5cGU6IGh0dHAKICAgIGJlaGF2aW9yOiBkb21haW4KICAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9Mb3lhbHNvbGRpZXIvY2xhc2gtcnVsZXMvcmVsZWFzZS9wcml2YXRlLnR4dCIKICAgIHBhdGg6IC4vcnVsZXNldC9Qcml2YXRlLnlhbWwKICAgIGludGVydmFsOiA4NjQwMAogIAogICMgR0ZXTGlzdCDln5/lkI3liJfooagKICBHRlc6CiAgICB0eXBlOiBodHRwCiAgICBiZWhhdmlvcjogZG9tYWluCiAgICB1cmw6ICJodHRwczovL21pcnJvci5naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vTG95YWxzb2xkaWVyL2NsYXNoLXJ1bGVzL3JlbGVhc2UvZ2Z3LnR4dCIKICAgIHBhdGg6IC4vcnVsZXNldC9HRlcueWFtbAogICAgaW50ZXJ2YWw6IDg2NDAwCiAgCiAgR3JlYXRGaXJlOgogICAgdHlwZTogaHR0cAogICAgYmVoYXZpb3I6IGRvbWFpbgogICAgdXJsOiAiaHR0cHM6Ly9taXJyb3IuZ2hwcm94eS5jb20vaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0xveWFsc29sZGllci9jbGFzaC1ydWxlcy9yZWxlYXNlL2dyZWF0ZmlyZS50eHQiCiAgICBwYXRoOiAuL3J1bGVzZXQvR3JlYXRGaXJlLnlhbWwKICAgIGludGVydmFsOiA4NjQwMAogIAogICPpnZ7kuK3lm73lpKfpmYbkvb/nlKjnmoTpobbnuqfln5/lkI3liJfooagKICBUbGQtTm90LUNOOiAKICAgIHR5cGU6IGh0dHAKICAgIGJlaGF2aW9yOiBkb21haW4KICAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9Mb3lhbHNvbGRpZXIvY2xhc2gtcnVsZXMvcmVsZWFzZS90bGQtbm90LWNuLnR4dCIKICAgIHBhdGg6IC4vcnVsZXNldC9UbGQtTm90LUNOLnlhbWwKICAgIGludGVydmFsOiA4NjQwMAoKICAjIFRlbGVncmFtIOS9v+eUqOeahCBJUCDlnLDlnYDliJfooagKICBUZWxlZ3JhbUNpZHI6CiAgICB0eXBlOiBodHRwCiAgICBiZWhhdmlvcjogaXBjaWRyCiAgICB1cmw6ICJodHRwczovL21pcnJvci5naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vTG95YWxzb2xkaWVyL2NsYXNoLXJ1bGVzL3JlbGVhc2UvdGVsZWdyYW1jaWRyLnR4dCIKICAgIHBhdGg6IC4vcnVsZXNldC9UZWxlZ3JhbUNpZHIueWFtbAogICAgaW50ZXJ2YWw6IDg2NDAwCiAgCiAgI+S4reWbveWkp+mZhiBJUCDlnLDlnYDliJfooagKICBDbkNpZHI6CiAgICB0eXBlOiBodHRwCiAgICBiZWhhdmlvcjogaXBjaWRyCiAgICB1cmw6ICJodHRwczovL21pcnJvci5naHByb3h5LmNvbS9odHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vTG95YWxzb2xkaWVyL2NsYXNoLXJ1bGVzL3JlbGVhc2UvY25jaWRyLnR4dCIKICAgIHBhdGg6IC4vcnVsZXNldC9DbkNpZHIueWFtbAogICAgaW50ZXJ2YWw6IDg2NDAwCiAgCiAgI+WxgOWfn+e9kSBJUCDlj4rkv53nlZkgSVAg5Zyw5Z2A5YiX6KGoCiAgTGFuQ2lkcjoKICAgICB0eXBlOiBodHRwCiAgICAgYmVoYXZpb3I6IGlwY2lkcgogICAgIHVybDogImh0dHBzOi8vbWlycm9yLmdocHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9Mb3lhbHNvbGRpZXIvY2xhc2gtcnVsZXMvcmVsZWFzZS9sYW5jaWRyLnR4dCIKICAgICBwYXRoOiAuL3J1bGVzZXQvTGFuQ2lkci55YW1sCiAgICAgaW50ZXJ2YWw6IDg2NDAwCiAgCgojIOmFjee9ruiHquWumuS5ieinhOWImQpydWxlczoKICAjIOebtOi/nuinhOWImQogIC0gRE9NQUlOLGNsYXNoLnJhem9yZC50b3AsRElSRUNULG5vLXJlc29sdmUKICAtIERPTUFJTix5YWNkLmhhaXNoYW4ubWUsRElSRUNULG5vLXJlc29sdmUKCiAgIyBPbmVEcml2ZeinhOWImQogIC0gRE9NQUlOLVNVRkZJWCx5b3VuZ3FmYnItbXkuc2hhcmVwb2ludC5jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLUtFWVdPUkQsc2hhcmVwb2ludC5jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLUtFWVdPUkQsb25lZHJpdmUsR1Msbm8tcmVzb2x2ZQoKICAjIEdvb2dsZURyaXZl6KeE5YiZCiAgLSBET01BSU4tU1VGRklYLGdvb2dsZWFwaXMuY29tLEdTLG5vLXJlc29sdmUKICAtIElQLUNJRFIsMTcyLjIxNy4xNjAuMTA2LzMyLEdTLG5vLXJlc29sdmUKICAtIFBST0NFU1MtTkFNRSxjb20uc3MuYW5kcm9pZC51Z2MudHJpbGwsR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLVNVRkZJWCxieXRlb3ZlcnNlYS5jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLVNVRkZJWCxpYnl0ZWR0b3MuY29tLEdTLG5vLXJlc29sdmUKICAtIERPTUFJTi1TVUZGSVgsaXBzdGF0cC5jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLVNVRkZJWCxtdXNjZG4uY29tLEdTLG5vLXJlc29sdmUKICAtIERPTUFJTi1TVUZGSVgsbXVzaWNhbC5seSxHUyxuby1yZXNvbHZlCiAgLSBET01BSU4tU1VGRklYLHRpa3Rvay5jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLVNVRkZJWCx0aWt0b2tjZG4uY29tLEdTLG5vLXJlc29sdmUKICAtIERPTUFJTi1TVUZGSVgsdGlrdG9rdi5jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLUtFWVdPUkQsLXRpa3Rva2Nkbi1jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLUtFWVdPUkQsdG9waHVwLnRvZGF5LEdTLG5vLXJlc29sdmUKICAtIERPTUFJTi1LRVlXT1JELGNsaS5pbSxESVJFQ1Qsbm8tcmVzb2x2ZQogIAogICMgT3BlbiBBSSBSdWxlCiAgLSBET01BSU4tU1VGRklYLG9wZW5haS5jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLVNVRkZJWCxjaGF0Lm9wZW5haS5jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLVNVRkZJWCxjaGFsbGVuZ2VzLmNsb3VkZmxhcmUuY29tLEdTLG5vLXJlc29sdmUKICAtIERPTUFJTi1TVUZGSVgsYXV0aDAub3BlbmFpLmNvbSxHUyxuby1yZXNvbHZlCiAgLSBET01BSU4tU1VGRklYLHBsYXRmb3JtLm9wZW5haS5jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLVNVRkZJWCxhaS5jb20sR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLUtFWVdPUkQsYmluZy5jb20sR1Msbm8tcmVzb2x2ZQogIAogICMgU2VydmVyIHJ1bGUKICAtIElQLUNJRFIsMTguMTYzLjExNi4yNy8zMixHUyxuby1yZXNvbHZlCiAgLSBJUC1DSURSLDE0My40Mi43Ni4yMTAvMzIsR1Msbm8tcmVzb2x2ZQogIC0gRE9NQUlOLUtFWVdPUkQsYXJjaGVyLm5vdy5jYyxHUyxuby1yZXNvbHZlCgogICMgLS0tLS0tLS0tLS0tLS0t6Ieq55So6YWN572uLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogIC0gRE9NQUlOLVNVRkZJWCx5dW53ZWlwYWkuY29tLERJUkVDVAogIC0gRE9NQUlOLVNVRkZJWCw1MXlpcC5jb20sRElSRUNUCiAgLSBET01BSU4tU1VGRklYLGdzaGlzLmNvbSxESVJFQ1QKICAtIERPTUFJTi1TVUZGSVgsaHVhbGFsYS5jb20sRElSRUNUCiAgLSBET01BSU4tU1VGRklYLGNoZXdlaWd1YW5qaWEuY29tLERJUkVDVAogIC0gRE9NQUlOLVNVRkZJWCx2bi5tayxESVJFQ1QKICAtIERPTUFJTi1TVUZGSVgsZ29vcm0uaW8sRElSRUNULG5vLXJlc29sdmUKICAjIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgogICMg6KeE5YiZ6ZuG5ZG95Lit6KeE5YiZIAogIC0gUlVMRS1TRVQsUmVqZWN0LFJFSkVDVCxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxHb29nbGUsR1Msbm8tcmVzb2x2ZQogIC0gUlVMRS1TRVQsWW91VHViZSxHUyxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxOZXRmbGl4LEdTLG5vLXJlc29sdmUKICAtIFJVTEUtU0VULEhCTyxHUyxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxPbmVEcml2ZSxHUyxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxEaXNuZXlQbHVzLEdTLG5vLXJlc29sdmUKICAtIFJVTEUtU0VULEFwcGxlLEdTLG5vLXJlc29sdmUKCiAgLSBSVUxFLVNFVCxTdGVhbSxHUyxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxYYm94LEdTLG5vLXJlc29sdmUKICAtIFJVTEUtU0VULFByb3h5LEdTLG5vLXJlc29sdmUKICAtIFJVTEUtU0VULEdGVyxHUyxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxHcmVhdEZpcmUsR1Msbm8tcmVzb2x2ZQogIC0gUlVMRS1TRVQsVGxkLU5vdC1DTixHUyxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxUZWxlZ3JhbUNpZHIsR1Msbm8tcmVzb2x2ZQoKICAtIFJVTEUtU0VULEJpbGliaWxpLERJUkVDVCxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxpY2xvdWQsRElSRUNULG5vLXJlc29sdmUKICAtIFJVTEUtU0VULGFwcGxpY2F0aW9ucyxESVJFQ1Qsbm8tcmVzb2x2ZQogIC0gUlVMRS1TRVQsRGlyZWN0LERJUkVDVCxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxQcml2YXRlLERJUkVDVCxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxXZUNoYXQsRElSRUNULG5vLXJlc29sdmUKICAtIFJVTEUtU0VULFN0ZWFtQ04sRElSRUNULG5vLXJlc29sdmUKICAtIFJVTEUtU0VULE5ldEVhc2VNdXNpYyxESVJFQ1Qsbm8tcmVzb2x2ZQogIC0gUlVMRS1TRVQsQ25DaWRyLERJUkVDVCxuby1yZXNvbHZlCiAgLSBSVUxFLVNFVCxMYW5DaWRyLERJUkVDVCxuby1yZXNvbHZlCgogICMg5YW25a6D6KeE5YiZIAogIC0gR0VPSVAsQ04sRElSRUNULG5vLXJlc29sdmUKICAtIE1BVENILEdTCiAg
+mixed-port: 10808
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+external-controller: '0.0.0.0:10809'
+external-ui: ./ui
+secret: ",.123321"
+dns:
+    enable: true
+    ipv6: false
+    default-nameserver: [180.184.1.1, 180.184.2.2]
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
+    fallback: ['https://cloudflare-dns.com/dns-query', 'tls://8.8.4.4:853']
+    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+
+proxies:
+  # 如果使用网络订阅这里可以留空
+  # VMess
+  # 支持的加密方法:
+  #  auto/aes-128-gcm/chacha20-poly1305/none
+  # - name: "BGS1"
+  #   type: vmess
+  #   server: 168.138.40.132
+  #   port: 51002
+  #   uuid: f9934026-5f46-11ec-bf63-0242ac130002
+  #   alterId: 0
+  #   cipher: auto
+  #   # udp: true
+  #   tls: false
+  #   # skip-cert-verify: true
+  #   # servername: example.com # 优先于 wss 主机
+  #   network: ws
+  #   # ws-opts:
+  #   #   path: /path
+  #   #   headers:
+  #   #     Host: v2ray.com
+  #   #   max-early-data: 2048
+  #   #   early-data-header-name: Sec-WebSocket-Protocol
+
+  #- { name: GS01, type: vmess, server: 168.138.40.132, port: 51002, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, network: ws }
+  - {name: GS01, server: 162.159.192.213, port: 4500, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: iOry7yqHa54QxOluEJ/zgu3IpXgjWhJTVQP75GdyDV8=, ip: 172.16.0.2, ipv6: 2606:4700:110:8ffa:4297:723a:d108:9f0a, dns: [1.1.1.1, 8.8.8.8], mtu: 1280, udp: true}
+
+proxy-groups:
+    - { name: GS, type: select, proxies: [ 上网专用, 游戏专用, 其它云, GS01 ] }
+    - { name: 上网专用, type: select, use: [ GS小鸡 ], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    #- { name: 故障转移, type: fallback, use: [GS小鸡], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 游戏专用, type: select, use: [ 游戏专用 ], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 其它云, type: select, use: [ 其它云 ], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+
+proxy-providers:
+  GS小鸡:
+    type: http
+    #url: "https://v1.mk/pHhZYyn"     # 将机场的提供的clash订阅地址拷贝进来,如果没有clash订阅地址,请使用https://sub.v1.mk/进行地址转换
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/mgit0001/test_clash/main/gs.yaml'
+    path: "./gs.yaml"             # 将机场的clash配置下载后存放的位置
+    interval: 86400                 # 每隔86400秒即每隔1天从url中指定的clash订阅地址更新
+    health-check:                  # 节点健康检查类似ping测试
+      enable: true
+      interval: 3600                # 每隔3600秒测试一次延迟
+      url: http://www.gstatic.com/generate_204
+
+  游戏专用:
+    type: http
+    #url: "https://v1.mk/pHhZYyn"     # 将机场的提供的clash订阅地址拷贝进来,如果没有clash订阅地址,请使用https://sub.v1.mk/进行地址转换
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/mgit0001/test_clash/main/gsgame.yaml'
+    path: "./gsgame.yaml"             # 将机场的clash配置下载后存放的位置
+    interval: 86400                 # 每隔86400秒即每隔1天从url中指定的clash订阅地址更新
+    health-check:                  # 节点健康检查类似ping测试
+      enable: true
+      interval: 3600                # 每隔3600秒测试一次延迟
+      url: http://www.gstatic.com/generate_204
+
+  其它云:
+    type: http
+    #url: "https://v1.mk/pHhZYyn"     # 将机场的提供的clash订阅地址拷贝进来,如果没有clash订阅地址,请使用https://sub.v1.mk/进行地址转换
+    url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/mgit0001/test_clash/main/tgs.yaml'
+    path: "./otherclouds.yaml"             # 将机场的clash配置下载后存放的位置
+    interval: 86400                 # 每隔86400秒即每隔1天从url中指定的clash订阅地址更新
+    health-check:                  # 节点健康检查类似ping测试
+      enable: true
+      interval: 3600                # 每隔3600秒测试一次延迟
+      url: http://www.gstatic.com/generate_204
+
+#===================== 配置规则 =====================#
+# 配置联网规则
+rule-providers:
+  # 广告域名列表
+  Reject:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
+    path: ./ruleset/Reject.yaml
+    interval: 86400
+  
+  # 代理域名列表
+  Proxy:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+    path: ./ruleset/Proxy.yaml
+    interval: 86400  
+  
+  Google:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml"
+    path: ./ruleset/Google.yaml
+    interval: 86400
+
+  YouTube:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml"
+    path: ./ruleset/YouTube.yaml
+    interval: 86400
+
+  Netflix:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml"
+    path: ./ruleset/Netflix.yaml
+    interval: 86400
+  
+  OneDrive:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
+    path: ./ruleset/OneDrive.yaml
+    interval: 86400
+
+  Bilibili:
+   type: http
+   behavior: classical
+   url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml"
+   path: ./ruleset/Bilibili.yaml
+   interval: 86400  
+  
+  DisneyPlus:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/DisneyPlus.yaml"
+    path: ./ruleset/DisneyPlus.yaml
+    interval: 86400  
+
+  HBO:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/HBO.yaml"
+    path: ./ruleset/HBO.yaml
+    interval: 86400  
+
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml"
+    path: ./ruleset/NetEaseMusic.yaml
+    interval: 86400    
+
+  WeChat:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Wechat.yaml"
+    path: ./ruleset/WeChat.yaml
+    interval: 86400    
+  
+  SteamCN:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml"
+    path: ./ruleset/SteamCN.yaml
+    interval: 86400  
+  
+  Steam:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Steam.yaml"
+    path: ./ruleset/Steam.yaml
+    interval: 86400  
+    
+  Xbox:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml"
+    path: ./ruleset/Xbox.yaml
+    interval: 86400  
+
+  Apple:
+    type: http
+    behavior: domain 
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
+    path: ./ruleset/Apple.yaml
+    interval: 86400  
+  
+  # iCloud 域名列表
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  # 需要直连的常见软件列表
+  applications:
+    type: http
+    behavior: classical
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+  
+  # 直连域名列表
+  Direct:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
+    path: ./ruleset/Direct.yaml
+    interval: 86400
+  
+  # 私有网络专用域名列表
+  Private:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/private.txt"
+    path: ./ruleset/Private.yaml
+    interval: 86400
+  
+  # GFWList 域名列表
+  GFW:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
+    path: ./ruleset/GFW.yaml
+    interval: 86400
+  
+  GreatFire:
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt"
+    path: ./ruleset/GreatFire.yaml
+    interval: 86400
+  
+  #非中国大陆使用的顶级域名列表
+  Tld-Not-CN: 
+    type: http
+    behavior: domain
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
+    path: ./ruleset/Tld-Not-CN.yaml
+    interval: 86400
+
+  # Telegram 使用的 IP 地址列表
+  TelegramCidr:
+    type: http
+    behavior: ipcidr
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+    path: ./ruleset/TelegramCidr.yaml
+    interval: 86400
+  
+  #中国大陆 IP 地址列表
+  CnCidr:
+    type: http
+    behavior: ipcidr
+    url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt"
+    path: ./ruleset/CnCidr.yaml
+    interval: 86400
+  
+  #局域网 IP 及保留 IP 地址列表
+  LanCidr:
+     type: http
+     behavior: ipcidr
+     url: "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
+     path: ./ruleset/LanCidr.yaml
+     interval: 86400
+  
+
+# 配置自定义规则
+rules:
+  # 直连规则
+  - DOMAIN,clash.razord.top,DIRECT,no-resolve
+  - DOMAIN,yacd.haishan.me,DIRECT,no-resolve
+
+  # OneDrive规则
+  - DOMAIN-SUFFIX,youngqfbr-my.sharepoint.com,GS,no-resolve
+  - DOMAIN-KEYWORD,sharepoint.com,GS,no-resolve
+  - DOMAIN-KEYWORD,onedrive,GS,no-resolve
+
+  # GoogleDrive规则
+  - DOMAIN-SUFFIX,googleapis.com,GS,no-resolve
+  - IP-CIDR,172.217.160.106/32,GS,no-resolve
+  - PROCESS-NAME,com.ss.android.ugc.trill,GS,no-resolve
+  - DOMAIN-SUFFIX,byteoversea.com,GS,no-resolve
+  - DOMAIN-SUFFIX,ibytedtos.com,GS,no-resolve
+  - DOMAIN-SUFFIX,ipstatp.com,GS,no-resolve
+  - DOMAIN-SUFFIX,muscdn.com,GS,no-resolve
+  - DOMAIN-SUFFIX,musical.ly,GS,no-resolve
+  - DOMAIN-SUFFIX,tiktok.com,GS,no-resolve
+  - DOMAIN-SUFFIX,tiktokcdn.com,GS,no-resolve
+  - DOMAIN-SUFFIX,tiktokv.com,GS,no-resolve
+  - DOMAIN-KEYWORD,-tiktokcdn-com,GS,no-resolve
+  - DOMAIN-KEYWORD,tophup.today,GS,no-resolve
+  - DOMAIN-KEYWORD,cli.im,DIRECT,no-resolve
+  
+  # Open AI Rule
+  - DOMAIN-SUFFIX,openai.com,GS,no-resolve
+  - DOMAIN-SUFFIX,chat.openai.com,GS,no-resolve
+  - DOMAIN-SUFFIX,challenges.cloudflare.com,GS,no-resolve
+  - DOMAIN-SUFFIX,auth0.openai.com,GS,no-resolve
+  - DOMAIN-SUFFIX,platform.openai.com,GS,no-resolve
+  - DOMAIN-SUFFIX,ai.com,GS,no-resolve
+  - DOMAIN-KEYWORD,bing.com,GS,no-resolve
+  
+  # Server rule
+  - IP-CIDR,18.163.116.27/32,GS,no-resolve
+  - IP-CIDR,143.42.76.210/32,GS,no-resolve
+  - DOMAIN-KEYWORD,archer.now.cc,GS,no-resolve
+
+  # ---------------自用配置-------------------------------
+  - DOMAIN-SUFFIX,yunweipai.com,DIRECT
+  - DOMAIN-SUFFIX,51yip.com,DIRECT
+  - DOMAIN-SUFFIX,gshis.com,DIRECT
+  - DOMAIN-SUFFIX,hualala.com,DIRECT
+  - DOMAIN-SUFFIX,cheweiguanjia.com,DIRECT
+  - DOMAIN-SUFFIX,vn.mk,DIRECT
+  - DOMAIN-SUFFIX,goorm.io,DIRECT,no-resolve
+  # -----------------------------------------------------
+
+  # 规则集命中规则 
+  - RULE-SET,Reject,REJECT,no-resolve
+  - RULE-SET,Google,GS,no-resolve
+  - RULE-SET,YouTube,GS,no-resolve
+  - RULE-SET,Netflix,GS,no-resolve
+  - RULE-SET,HBO,GS,no-resolve
+  - RULE-SET,OneDrive,GS,no-resolve
+  - RULE-SET,DisneyPlus,GS,no-resolve
+  - RULE-SET,Apple,GS,no-resolve
+
+  - RULE-SET,Steam,GS,no-resolve
+  - RULE-SET,Xbox,GS,no-resolve
+  - RULE-SET,Proxy,GS,no-resolve
+  - RULE-SET,GFW,GS,no-resolve
+  - RULE-SET,GreatFire,GS,no-resolve
+  - RULE-SET,Tld-Not-CN,GS,no-resolve
+  - RULE-SET,TelegramCidr,GS,no-resolve
+
+  - RULE-SET,Bilibili,DIRECT,no-resolve
+  - RULE-SET,icloud,DIRECT,no-resolve
+  - RULE-SET,applications,DIRECT,no-resolve
+  - RULE-SET,Direct,DIRECT,no-resolve
+  - RULE-SET,Private,DIRECT,no-resolve
+  - RULE-SET,WeChat,DIRECT,no-resolve
+  - RULE-SET,SteamCN,DIRECT,no-resolve
+  - RULE-SET,NetEaseMusic,DIRECT,no-resolve
+  - RULE-SET,CnCidr,DIRECT,no-resolve
+  - RULE-SET,LanCidr,DIRECT,no-resolve
+
+  # 其它规则 
+  - GEOIP,CN,DIRECT,no-resolve
+  - MATCH,GS
+  
+
+
+
