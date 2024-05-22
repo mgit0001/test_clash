@@ -17,6 +17,7 @@ proxies:
   - {name: jp02, server: kr.ghostsn.top, port: 2083, client-fingerprint: randomized, type: vless, uuid: 1ab206af-7cf8-414d-b415-6503ee466b2d, tls: true, tfo: false, skip-cert-verify: false, servername: jpkkk.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jpkkk.pages.dev}}, udp: true}
   - {name: hk2083, server: 104.29.68.41, port: 2083, client-fingerprint: randomized, type: vless, uuid: 1ab206af-7cf8-414d-b415-6503ee466b2d, tls: true, tfo: false, skip-cert-verify: false, servername: jpkkk.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jpkkk.pages.dev}}, udp: true}
   - {name: hk2096, server: hk2096.ghostsn.top, port: 2096, client-fingerprint: randomized, type: vless, uuid: 1ab206af-7cf8-414d-b415-6503ee466b2d, tls: true, tfo: false, skip-cert-verify: false, servername: jpkkk.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jpkkk.pages.dev}}, udp: true}
+  - {name: hk8443, server: hk8443.ghostsn.top, port: 8443, client-fingerprint: randomized, type: vless, uuid: 1ab206af-7cf8-414d-b415-6503ee466b2d, tls: true, tfo: false, skip-cert-verify: false, servername: jpkkk.pages.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: jpkkk.pages.dev}}, udp: true}
 
 
 
