@@ -13,4 +13,4 @@ proxies:
   - {name: hk844302, server: 8.210.119.11, port: 8443, client-fingerprint: randomized, type: vless, uuid: 1ab206af-7cf8-414d-b415-6503ee466b2d, tls: true, tfo: false, skip-cert-verify: false, servername: jpkkk.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: jpkkk.pages.dev}}}
 
   - {name: serv00, server: ssaa.serv00.net, port: 10081, client-fingerprint: chrome, type: vless, uuid: 37a0bd7c-8b9f-4693-8916-bd1e2da0a817, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yanag.serv00.net}}}
-
+  - {name: hicairo.com, server: d380a471-e7b0-4aef-b228-0c6e908bf9e3-00-2xxopi7t2jvv9.sisko.replit.dev, port: 443, client-fingerprint: chrome, type: vmess, uuid: d380a471-e7b0-4aef-b228-0c6e908bf9e3, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vm, headers: {Host: d380a471-e7b0-4aef-b228-0c6e908bf9e3-00-2xxopi7t2jvv9.sisko.replit.dev}}}
