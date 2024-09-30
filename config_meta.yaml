@@ -41,9 +41,9 @@ proxies:
 
   #- { name: GS01, type: vmess, server: 168.138.40.132, port: 51002, uuid: f9934026-5f46-11ec-bf63-0242ac130002, alterId: 0, cipher: auto, tls: false, network: ws }
   - {name: GS01, server: 162.159.192.213, port: 4500, type: wireguard, public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=, private-key: iOry7yqHa54QxOluEJ/zgu3IpXgjWhJTVQP75GdyDV8=, ip: 172.16.0.2, ipv6: 2606:4700:110:8ffa:4297:723a:d108:9f0a, dns: [1.1.1.1, 8.8.8.8], mtu: 1280, udp: true}
-
+  - {name: "GS88", server: 3.112.228.109, port: 8080, client-fingerprint: chrome, type: vmess, uuid: e512511a-c1f1-4cee-9b06-d968f630a614, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: download.windowsupdate.com}}}
 proxy-groups:
-    - { name: GS, type: select, proxies: [ 上网专用, 其它云, 游戏专用, GS01 ] }
+    - { name: GS, type: select, proxies: [ 上网专用, 其它云, 游戏专用, GS01, GS88 ] }
     - { name: 上网专用, type: select, use: [ GS小鸡 ], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
     #- { name: 故障转移, type: fallback, use: [GS小鸡], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
     - { name: 其它云, type: select, use: [ 其它云 ], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
