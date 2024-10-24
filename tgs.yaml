@@ -1,2 +1,197 @@
 proxies:
-  - {name: 🇨🇳 台湾, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 377e5157-d4be-4392-a3d3-94ffaf2c54c5, alterId: 0, cipher: auto, tls: false, udp: true}
+  - name: 美国[01]中转
+    port: 12464
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 美国[02]
+    port: 443
+    server: pop.81f7558e-0756-469a-9bf6-808f1b23e673.heima360.cc
+    type: trojan
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    skip-cert-verify: false
+  - name: 美国[03]中转
+    port: 17941
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 美国[04]
+    port: 658
+    server: 45.83.140.22
+    type: trojan
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    skip-cert-verify: true
+  - name: 香港[01]
+    port: 158
+    server: 107.149.254.26
+    type: trojan
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    skip-cert-verify: true
+  - name: 香港[02]
+    port: 443
+    server: pop.5aebac95-18f6-45ee-8645-e6d9ad49ca74.heima360.cc
+    type: trojan
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    skip-cert-verify: false
+  - name: 香港[04]中转
+    port: 65519
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 香港[05]中转
+    port: 36511
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 香港[06]
+    port: 159
+    server: 107.149.254.26
+    type: trojan
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    skip-cert-verify: true
+  - name: 香港[07]中转
+    port: 36214
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 台湾[01]中转
+    port: 41004
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 韩国[02]
+    port: 22214
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 日本[01]中转
+    port: 56161
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 新加坡[02]
+    port: 443
+    server: pop.09d21837-9b89-4490-92bf-eabf449e3321.heima360.cc
+    type: trojan
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    skip-cert-verify: false
+  - name: 越南[01]
+    port: 57789
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 马来西亚[04]中转
+    port: 50476
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 澳大利亚[01]
+    port: 16782
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 印度[01]
+    port: 443
+    server: pop.d87d89a6-984c-49dc-a29c-f8cbcd05650a.heima360.cc
+    type: trojan
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    skip-cert-verify: false
+  - name: 德国[01]中转
+    port: 55997
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 加拿大[01]中转
+    port: 29292
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 英国[01]中转
+    port: 10683
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 巴西[01]中转
+    port: 30752
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 法国[01]中转
+    port: 39172
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 俄罗斯[01]中转
+    port: 23499
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 新加坡[01]中转
+    port: 12418
+    server: vip.baima360.com
+    type: ss
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    cipher: chacha20-ietf-poly1305
+  - name: 马来西亚[01]
+    port: 100
+    server: 103.75.189.152
+    type: trojan
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    skip-cert-verify: true
+  - name: 马来西亚[02]
+    port: 101
+    server: 103.75.188.189
+    type: trojan
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    skip-cert-verify: true
+  - name: 马来西亚[03]
+    port: 443
+    server: pop.3467a249-db84-4701-b721-f3f6d614e900.heima360.cc
+    type: trojan
+    udp: true
+    password: e8ab4e83-75b9-4d2d-ad16-7bfda8253cb7
+    skip-cert-verify: false
