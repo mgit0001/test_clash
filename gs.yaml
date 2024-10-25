@@ -1,7 +1,7 @@
 proxies:
-  - name: jpkkk01-clone
+  - name: jpkkk01
     port: 443
-    server: upos-sz-mirrorcf1ov.bilivideo.com
+    server: 162.159.140.211
     type: vless
     network: ws
     tls: true
@@ -9,6 +9,7 @@ proxies:
     servername: jpkkk.pages.dev
     skip-cert-verify: true
     ws-opts:
+      path: /?ed=2048
       headers:
         host: jpkkk.pages.dev
     uuid: 1ab206af-7cf8-414d-b415-6503ee466b2d
