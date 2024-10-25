@@ -9,7 +9,6 @@ proxies:
     servername: jpkkk.pages.dev
     skip-cert-verify: true
     ws-opts:
-      path: /?ed=2048
       headers:
         host: jpkkk.pages.dev
     uuid: 1ab206af-7cf8-414d-b415-6503ee466b2d
