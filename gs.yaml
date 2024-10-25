@@ -1,5 +1,5 @@
 proxies:
-  - name: jpkkk01-clone-clone
+  - name: jpkkk01
     port: 443
     server: upos-sz-mirrorcf1ov.bilivideo.com
     type: vless
