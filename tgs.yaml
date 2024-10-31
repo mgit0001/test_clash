@@ -1,3 +1,4 @@
+proxies:
   - {name: "🇺🇸 美国[01]中转", server: vip.baima360.com, port: 12464, type: ss, cipher: chacha20-ietf-poly1305, password: 87bf9add-eb81-48ef-a460-b7b8ed7341ee}
   - {name: "🇯🇵 日本[01]", server: vip.baima360.com, port: 15888, type: ss, cipher: chacha20-ietf-poly1305, password: 87bf9add-eb81-48ef-a460-b7b8ed7341ee}
   - {name: "🇺🇸 美国[02]中转", server: vip.baima360.com, port: 30104, type: ss, cipher: chacha20-ietf-poly1305, password: 87bf9add-eb81-48ef-a460-b7b8ed7341ee}
