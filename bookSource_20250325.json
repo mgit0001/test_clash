@@ -15468,5 +15468,115 @@
     },
     "searchUrl": "https://www.ttkmh.com/search/{{key}}/{{page}}",
     "weight": 0
+  },{
+    "bookSourceComment": "",
+    "bookSourceGroup": "源仓库",
+    "bookSourceName": "🍩笔趣阁ibiquge[自写]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ibiquge.vip#xsw8093",
+    "customOrder": -92904,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "{\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',\n    \"Cookie\":\"0\"\n}",
+    "lastUpdateTime": 1729482970725,
+    "respondTime": 81642,
+    "ruleBookInfo": {
+      "author": "@get:{a}",
+      "coverUrl": "@get:{c}",
+      "init": "@put:{\nn:\"[property~=book_name|title]@content\",\na:\"[property$=author]@content\",\nk:\"[property~=category|status|update_time]@content\",\nl:\"[property~=lastest_chapter_name|latest_chapter_name]@content\",\ni:\"[property$=description]@content\",\nc:\"[property$=image]@content\"\n}",
+      "intro": "@get:{i}",
+      "kind": "@get:{k}",
+      "lastChapter": "@get:{l}",
+      "name": "@get:{n}",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "#article@html",
+      "nextContentUrl": "text.下一@href\n@js:\nif(result){\n result=result[0].includes(\"_\")?result:\"\";\n}",
+      "replaceRegex": "##{{book.author}}.*.接着再看更方便|本章没完.*继续阅读！如果被转码.*更换浏揽器即可。|本章未完.*退出阅读模式即可，谢谢|.*提醒.*看完记得.*|\\s*温馨提示.?亲爱的读者.*\\s*|\\d+。。",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": ".author.0@text##作者：##",
+      "bookList": ".bookbox",
+      "bookUrl": ".bookname@a@href",
+      "checkKeyWord": "剑来",
+      "coverUrl": "img@src",
+      "intro": ".intro@text",
+      "kind": ".author.1@text##类型：##",
+      "lastChapter": ".update@atext",
+      "name": ".bookname@a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": ".directoryArea@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value",
+      "updateTime": ""
+    },
+    "searchUrl": "@js:\nvar su=source.getKey()\nvar htmlUrl=java.get(su,{}).headers('Location')\njava.log(`重定向：${htmlUrl[0]}`)\nvar posturl=htmlUrl[0]?htmlUrl[0]:(su.includes(\"#\")?su.match(/([^\\#]+)\\#/)[1]:su)\nposturl = posturl.slice(-1)=='/'?posturl.slice(0,-1):posturl\ncookie.removeCookie(posturl)\njava.log(`请求：${posturl}`)\n\nck=cookie.getCookie(posturl);\n\ncookie.setCookie(posturl,String(ck).replace(/ss_search_delay=.*/,\"\"));\n\nso=posturl+\"/search,\"+JSON.stringify({\n  \"body\": \"searchkey=\"+key,\n  \"method\": \"POST\"\n});\njava.put(\"url\",String(so))\nso",
+    "weight": 0
+  }, {
+    "bookSourceComment": "25.3.7\n需要挂梯\n书评有些恶臭，介意的请删掉书评相关代码",
+    "bookSourceGroup": "源仓库,🍒精选❶",
+    "bookSourceName": "🍒小说狂人",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://czbooks.net/",
+    "customOrder": -93912,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "@js:\n\nvar sort=[],\npush=(title,surl,size)=>sort.push({\n    title: title,\n    url: surl,\n    style: {\n      layout_flexGrow: 1,\n      layout_flexBasisPercent: size,\n     }\n  });\n\t\npush(\"༺ˇ»`ʚ排行榜ɞ´«ˇ༻\",null,1,1);\n\n[[\"精选日榜\",\"day\"],[\"精选周榜\",\"week\"],[\"精选总榜\",\"total\"]].map([title,uri]=>push(title, `https://czbooks.net/c/normal/${uri}/{{page}}`, 0.25));\n\n[[\"人气日榜\",\"day\"],[\"人气周榜\",\"week\"],[\"人气总榜\",\"total\"]].map([title,uri]=>push(title, `https://czbooks.net/c/all/${uri}/{{page}}`, 0.25));\n\n[[\"收藏日榜\",\"day\"],[\"收藏周榜\",\"week\"],[\"收藏总榜\",\"total\"]].map([title,uri]=>push(title, `https://czbooks.net/c/favorite/${uri}/{{page}}`, 0.25));\n\n[[\"完结日榜\",\"day\"],[\"完结周榜\",\"week\"],[\"完结总榜\",\"total\"]].map([title,uri]=>push(title, `https://czbooks.net/c/finish/${uri}/{{page}}`, 0.25));\n\n[[\"工口日榜\",\"day\"],[\"工口周榜\",\"week\"],[\"工口总榜\",\"total\"]].map([title,uri]=>push(title, `https://czbooks.net/c/hot/${uri}/{{page}}`, 0.25));\n\n[[\"原创最新\",\"new\"],[\"原创日榜\",\"day\"],[\"原创周榜\",\"week\"],[\"原创总榜\",\"total\"],[\"------\",],[\"原创完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/creator/${uri}/{{page}}`, 0.25));\n\n\npush(\"༺ˇ»`ʚ分类ɞ´«ˇ༻\",null,1,1);\n\n\n[[\"玄幻最新\",\"new\"],[\"玄幻日榜\",\"day\"],[\"玄幻周榜\",\"week\"],[\"玄幻总榜\",\"total\"],[\"------\",],[\"玄幻完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/xuanhuan/${uri}/{{page}}`, 0.25));\n\n[[\"言情最新\",\"new\"],[\"言情日榜\",\"day\"],[\"言情周榜\",\"week\"],[\"言情总榜\",\"total\"],[\"------\",],[\"言情完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/yanqing/${uri}/{{page}}`, 0.25));\n\n[[\"仙武最新\",\"new\"],[\"仙武日榜\",\"day\"],[\"仙武周榜\",\"week\"],[\"仙武总榜\",\"total\"],[\"------\",],[\"仙武完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/xianxia/${uri}/{{page}}`, 0.25));\n\n[[\"军史最新\",\"new\"],[\"军史日榜\",\"day\"],[\"军史周榜\",\"week\"],[\"军史总榜\",\"total\"],[\"------\",],[\"军史完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/lishi/${uri}/{{page}}`, 0.25));\n\n[[\"科游最新\",\"new\"],[\"科游日榜\",\"day\"],[\"科游周榜\",\"week\"],[\"科游总榜\",\"total\"],[\"------\",],[\"科游完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/wangyou/${uri}/{{page}}`, 0.25));\n\n[[\"灵异最新\",\"new\"],[\"灵异日榜\",\"day\"],[\"灵异周榜\",\"week\"],[\"灵异总榜\",\"total\"],[\"------\",],[\"灵异完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/lingyi/${uri}/{{page}}`, 0.25));\n\n[[\"女同最新\",\"new\"],[\"女同日榜\",\"day\"],[\"女同周榜\",\"week\"],[\"女同总榜\",\"total\"],[\"------\",],[\"女同完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/tongren/${uri}/{{page}}`, 0.25));\n\n[[\"原同最新\",\"new\"],[\"原同日榜\",\"day\"],[\"原同周榜\",\"week\"],[\"原同总榜\",\"total\"],[\"------\",],[\"原同完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/erciyuan/${uri}/{{page}}`, 0.25));\n\n[[\"耽美最新\",\"new\"],[\"耽美日榜\",\"day\"],[\"耽美周榜\",\"week\"],[\"耽美总榜\",\"total\"],[\"------\",],[\"耽美完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/danmei/${uri}/{{page}}`, 0.25));\n\n[[\"百合最新\",\"new\"],[\"百合日榜\",\"day\"],[\"百合周榜\",\"week\"],[\"百合总榜\",\"total\"],[\"------\",],[\"百合完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/baihe/${uri}/{{page}}`, 0.25));\n\n[[\"日系最新\",\"new\"],[\"日系日榜\",\"day\"],[\"日系周榜\",\"week\"],[\"日系总榜\",\"total\"],[\"------\",],[\"日系完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/japan/${uri}/{{page}}`, 0.25));\n\n[[\"奇冒最新\",\"new\"],[\"奇冒日榜\",\"day\"],[\"奇冒周榜\",\"week\"],[\"奇冒总榜\",\"total\"],[\"------\",],[\"奇冒完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/fanatsy/${uri}/{{page}}`, 0.25));\n\n[[\"电视最新\",\"new\"],[\"电视日榜\",\"day\"],[\"电视周榜\",\"week\"],[\"电视总榜\",\"total\"],[\"------\",],[\"电视完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/drama/${uri}/{{page}}`, 0.25));\n\n[[\"情工最新\",\"new\"],[\"情工日榜\",\"day\"],[\"情工周榜\",\"week\"],[\"情工总榜\",\"total\"],[\"------\",],[\"情工完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/herotic/${uri}/{{page}}`, 0.25));\n\n[[\"耽工最新\",\"new\"],[\"耽工日榜\",\"day\"],[\"耽工周榜\",\"week\"],[\"耽工总榜\",\"total\"],[\"------\",],[\"耽工完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/blerotic/${uri}/{{page}}`, 0.25));\n\n[[\"经典最新\",\"new\"],[\"经典日榜\",\"day\"],[\"经典周榜\",\"week\"],[\"经典总榜\",\"total\"],[\"------\",],[\"经典完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/classicbook/${uri}/{{page}}`, 0.25));\n\n[[\"推理最新\",\"new\"],[\"推理日榜\",\"day\"],[\"推理周榜\",\"week\"],[\"推理总榜\",\"total\"],[\"------\",],[\"推理完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/suspense/${uri}/{{page}}`, 0.25));\n\n[[\"女性最新\",\"new\"],[\"女性日榜\",\"day\"],[\"女性周榜\",\"week\"],[\"女性总榜\",\"total\"],[\"------\",],[\"女性完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/girl/${uri}/{{page}}`, 0.25));\n\n[[\"短篇最新\",\"new\"],[\"短篇日榜\",\"day\"],[\"短篇周榜\",\"week\"],[\"短篇总榜\",\"total\"],[\"------\",],[\"短篇完本\",\"finish\"]].map([title,uri]=>push(title, `https://czbooks.net/c/short/${uri}/{{page}}`, 0.25));\n\n\nJSON.stringify(sort);",
+    "jsLib": "function method(result){ const { java, source, cookie } = this ;result=result.replace(/著/g,'着').replace(/仿真/g,'模拟');return java.t2s(result)}",
+    "lastUpdateTime": 1741336007279,
+    "respondTime": 15056,
+    "ruleBookInfo": {
+      "author": "span.author@a@text",
+      "coverUrl": ".thumbnail@img@src",
+      "init": "<js>method(result)</js>",
+      "intro": "&nbsp;🕰  更新：{{@@table@tbody@tr.-2@td.1@text}}\n\n👁  阅读：{{@@table@tbody@tr.2@td.1@text}}\n\n❤️  收藏：{{@@table@tbody@tr.1@td.1@text}}\n\n🏷  标签：{{@@ul.hashtag@li.item[:4]@a@text##\\n##·}}\n\n☘️  最新：{{@@#chapter-list@a.-1@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求含理更谢乐发推票盟补加字].*?[】）\\)]}}\n\n📜  简介：\n{{@@.description@html}}\n\n{{'\\n'+'​'}}\n🍚  书评：\n👤 用户名：{{@@li.comment-item[:4]@text##\\n##<p>👤 用户名：}}\n<js>result\n.replace(/\\s(..)前/g,' \\n⏰ 时间：$1前')\n.replace(/\\s(\\d+)\\s/g,' 👍🏻 点赞：$1 \\n📖 评论：')\n.replace(/\\s・/g,' 📘章节：')\n</js>",
+      "kind": "{{@@table@tbody@tr.0@td.1@text}}\n{{@@table@tbody@tr.-1@td.1@text}}\n{{@@table@tbody@tr.-2@td.1@text}}",
+      "lastChapter": "{{@@#chapter-list@a.-1@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求含理更谢乐发推票盟补加字].*?[】）\\)]}}•{{@@table@tbody@tr.-2@td.1@text}}\n@js:result\n.replace(\"••\",\"\")\n.replace(/^(\\d+).第/,'第')\n.replace(/^(\\d+)[、．]第.+章/,'第$1章')\n.replace(/^(\\d+)、\\d+、/,'第$1章 ')\n.replace(/^(\\d+)、\\d+/,'第$1章')\n.replace(/^(\\d+)、/,'第$1章 ')\n.replace(/^(第.+章)\\s?第.+章/,'$1')\n.replace(/第\\s(.+)\\s章/,'第$1章')\n.replace(/.*(chapter|Chapter)\\s?(\\d+)\\s?/,'$1 $2 ')\n.replace(/\\(.+\\)/,'')\n.replace(/\\[|。/,'')\n.replace(/第([零一二两三四五六七八九十百千]+)章/g,java.toNumChapter(result))\n##(章)([^\\s]+)(\\s·)##$1 $2$3",
+      "name": "span.title@text##《|》"
+    },
+    "ruleContent": {
+      "content": "<js>method(result)</js>\n.content@html\n@js:result\n \t.replace(/着名/g,'著名')\n\t.replace(/土着/g,'土著')\n\t.replace(/原着/g,'原著')\n\t.replace(/名着/g,'名著')\n\t.replace(/着作/g,'著作')"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": ".novel-item-author@a@text",
+      "bookList": "<js>method(result)</js>\nli.novel-item-wrapper",
+      "bookUrl": "a.0@href",
+      "checkKeyWord": "诡秘之主",
+      "coverUrl": "img@src",
+      "intro": "收藏：{{@@.nav@text##\\s.*}}\n观看：{{@@.nav@text##.*\\s}}",
+      "kind": ".novel-item-date@text",
+      "lastChapter": "{{@@.novel-item-newest-chapter@a@text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求含理更谢乐发推票盟补加字].*?[】）\\)]}}•{{@@.novel-item-date@text}}\n@js:result\n.replace(\"••\",\"\")\n.replace(/^(\\d+).第/,'第')\n.replace(/^(\\d+)[、．]第.+章/,'第$1章')\n.replace(/^(\\d+)、\\d+、/,'第$1章 ')\n.replace(/^(\\d+)、\\d+/,'第$1章')\n.replace(/^(\\d+)、/,'第$1章 ')\n.replace(/^(第.+章)\\s?第.+章/,'$1')\n.replace(/第\\s(.+)\\s章/,'第$1章')\n.replace(/.*(chapter|Chapter)\\s?(\\d+)\\s?/,'$1 $2 ')\n.replace(/\\(.+\\)/,'')\n.replace(/\\[|。/,'')\n.replace(/第([零一二两三四五六七八九十百千]+)章/g,java.toNumChapter(result))\n##(章)([^\\s]+)(\\s·)##$1 $2$3",
+      "name": ".novel-item-title@text"
+    },
+    "ruleToc": {
+      "chapterList": "<js>method(result)</js>\n@css:\n.volume,.chapter-list>li\n\n@js:\nlist=[]\n$=result\nfor(i in $){\nif(String($[i]).match(/class=\"volume/)){\n\tt=String($[i].text()).replace(new RegExp(book.name,''),'');\n\t\tlist.push({\n\t\t\t\ttext: \"🏮〖\"+t+\"〗🏮\",\n\t\t\t\tvolume: true\n\t\t\t})\n\t}\nelse{\n\t\t$[i].select(\"a\").forEach(a=>{\n\t\t\t\tlist.push({\n\t\t\t\t\t\ttext: a.text(),\n\t\t\t\t\t\thref: a.attr(\"href\")\n\t\t\t\t\t})\n\t\t\t})\n\t}\n}\nlist",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVolume": "volume"
+    },
+    "searchUrl": "s/{{key}}?q={{key}}",
+    "weight": 0
   }
 ]
