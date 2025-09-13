@@ -4330,50 +4330,6 @@
     "searchUrl": "@js:\nu0 = \"/goway/goread/app/search/v4/getBookByKeyword\";\nu3 = \"keyword=\"+key+\"&page=\"+page+\"&psize=20&withRecommend=1\";\neval(String(source.bookSourceComment));",
     "weight": 0
   }, {
-    "bookSourceComment": "笔趣阁同一套模板，这个没广告",
-    "bookSourceGroup": "笔趣阁0905",
-    "bookSourceName": "笔趣阁(2023)",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.biquge2023.com",
-    "customOrder": -2,
-    "enabled": true,
-    "enabledCookieJar": false,
-    "enabledExplore": true,
-    "exploreUrl": "[{\"title\":\"玄幻小说\",\"url\":\"/xiaoshuo/xuanhuan_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"武侠小说\",\"url\":\"/xiaoshuo/wuxia_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市小说\",\"url\":\"/xiaoshuo/dushi_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史小说\",\"url\":\"/xiaoshuo/lishi_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻小说\",\"url\":\"/xiaoshuo/kehuan_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"网游小说\",\"url\":\"/xiaoshuo/wangyou_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"其他小说\",\"url\":\"/xiaoshuo/qita_{{page}}/\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
-    "lastUpdateTime": 1690291487161,
-    "respondTime": 42268,
-    "ruleBookInfo": {
-      "author": "class.info@class.fix@tag.p.0@tag.a@text",
-      "coverUrl": "tag.img@src",
-      "intro": "class.m-desc xs-show@html",
-      "kind": "class.info@class.fix@tag.p.1@text",
-      "lastChapter": "class.info@class.fix@tag.p.4@tag.a@text",
-      "name": "class.info@class.top@tag.h1@text",
-      "wordCount": "class.info@class.fix@tag.p.3@text"
-    },
-    "ruleContent": {
-      "content": "class.content@html",
-      "nextContentUrl": "text.下一页@href"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "class.s1@text",
-      "bookList": "class.txt-list txt-list-row5@tag.li!0",
-      "bookUrl": "class.s2@tag.a@href",
-      "kind": "class.s4@text##^##更新:",
-      "lastChapter": "class.s3@tag.a@text",
-      "name": "class.s2@text"
-    },
-    "ruleToc": {
-      "chapterList": "class.layout layout-col1@class.section-box@tag.li",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href",
-      "nextTocUrl": "text.下一页@href"
-    },
-    "searchUrl": "/search/,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
-    "weight": 0
-  },
-  {
     "bookSourceComment": "",
     "bookSourceGroup": "笔趣阁0905",
     "bookSourceName": "笔趣阁",
